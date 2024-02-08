@@ -58,7 +58,7 @@ const handleClose = () => {
             </div>
             }
           </div>
-          <div onClick={() => setOpenNav(!openNav)}  className={styles.breadMenu}>{openNav ? <MdClose size={20} /> : <CiMenuFries size={20} />}</div>
+          <div onClick={() => setOpenNav(!openNav)}  className={styles.breadMenu}>{openNav ? <MdClose size={25} /> : <CiMenuFries size={25} />}</div>
       </div>
 
     </div>
