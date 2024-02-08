@@ -201,8 +201,8 @@ $veryBig: 1536px;
                 width: 90%;
                 position: relative;
                 margin-bottom: 120px;
-                padding: 0px 40px;
-                margin-left: 25px;
+                padding: 0px 10px;
+                margin-left: 5px;
                 
                 .img1{
                     display: flex;
@@ -231,7 +231,7 @@ $veryBig: 1536px;
                     width: 300px;
                     position: absolute;
                     top: 80px;
-                    left: 60px;
+                    left: 0px;
                     
                     &:hover{
                         cursor: pointer;
@@ -253,7 +253,7 @@ $veryBig: 1536px;
                     width: 400px;
                     position: absolute;
                     top: 160px;
-                    right: 0px;
+                    right: -50px;
     
                     &:hover{
                         cursor: pointer;
@@ -276,7 +276,7 @@ $veryBig: 1536px;
                 width: 90%;
                 gap: 10px;
                 padding: 20px 20px;
-                margin-left: 25px;
+                margin-left: 0px;
               
     
                     .first{

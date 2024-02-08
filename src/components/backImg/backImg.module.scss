@@ -13,7 +13,7 @@
 
         .imgdiv{
 
-            clip-path: polygon(0 0, 100% 0%, 100% 79%, 0 89%);
+            clip-path: polygon(0 0, 100% 0%, 100% 87%, 0 92%);
             position: relative;
             z-index: -999;       
             top: 0;
@@ -25,7 +25,7 @@
         .backColor{
             position: absolute;
             background-image: linear-gradient(to top right, rgba(214, 208, 208, 0) , rgb(14, 12, 12));
-            clip-path: polygon(0 0, 100% 0%, 100% 79%, 0 89%);
+            clip-path: polygon(0 0, 100% 0%, 100% 87%, 0 92%);
             top: 0;
             left: 0;
             height: 100vh;
@@ -60,7 +60,7 @@ $veryBig: 1536px;
     
             .imgdiv{
     
-                clip-path: polygon(0 0, 100% 0%, 100% 79%, 0 89%);
+                clip-path: polygon(0 0, 100% 0%, 100% 87%, 0 92%);
                 position: relative;
                 z-index: -999;       
                 top: 0;
@@ -74,7 +74,7 @@ $veryBig: 1536px;
             .backColor{
                 position: absolute;
                 background-image: linear-gradient(to top right, rgba(214, 208, 208, 0) , rgb(14, 12, 12));
-                clip-path: polygon(0 0, 100% 0%, 100% 79%, 0 89%);
+                clip-path: polygon(0 0, 100% 0%, 100% 87%, 0 92%);
                 top: 0;
                 left: 0;
                 height: 100vh;
