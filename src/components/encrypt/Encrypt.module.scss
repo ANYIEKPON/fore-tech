@@ -1,14 +1,12 @@
 .encrypt{
     display: flex;
     width: 99%;
-    height: 600px;
-    justify-content: space-around;
+    height: 550px;
+    justify-content: space-between;
     align-items: center;
     gap: 20px;
-    // padding: 10px;
     margin-top: 20px;
     margin-bottom: 40px;
-    // background-color: #424141;
     background-image: url(../../../public/contct.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -18,45 +16,42 @@
     // background-color: beige;
     padding: 20px 10px;
 
-    .ccntact{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        gap: 10px;
+    // .ccntact{
+    //     display: flex;
+    //     flex-direction: column;
+    //     justify-content: flex-start;
+    //     align-items: flex-start;
+    //     gap: 10px;
 
-        h3{
-            font-size: 28px;
-            margin: 0px;
-            color: #e9c473;
-        }
+    //     h3{
+    //         font-size: 28px;
+    //         margin: 0px;
+    //         color: #e9c473;
+    //     }
 
-        p{
-            width: 70%;
-            font-size: 18px;
-            text-align: center;
-            margin: 0px;
-            // color: #8497b7;
-            color: white;
-        }
-    }
+    //     p{
+    //         width: 70%;
+    //         font-size: 18px;
+    //         text-align: center;
+    //         margin: 0px;
+    //         // color: #8497b7;
+    //         color: white;
+    //     }
+    // }
 
     .contactFrm{
         display: flex;
         width: 50%;
-        // background-color: red;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        padding: 40px 0px;
-        gap: 15px;
+        padding: 20px 0px;
+        gap: 5px;
         margin-bottom: 40px;
 
         h3{
-            // background-color: green;
             width: 100%;
-            // text-align: center;
-            font-size: 30px;
+            font-size: 25px;
             margin-left: 60px;
         }
        
@@ -76,8 +71,8 @@
                 width: 100%;
                 
                 .btn{
-                    padding: 15px 0;
-                    width: 50%;
+                    padding: 10px 0;
+                    width: 40%;
                     border-radius: 10px;
                     font-size: 20px;
                     font-weight: bold;
@@ -122,9 +117,9 @@
 
         span{
             width: 100%;
-            // text-align: center;
             font-size: 25px;
             margin-left: 200px;
+            margin-top: 10px;
         }
     }
 
