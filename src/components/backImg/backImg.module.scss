@@ -1,0 +1,36 @@
+.main{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // position: relative;
+
+    .description{
+        position: relative;
+        width: 98%;
+        justify-content: center;
+        align-items: center;
+
+        .imgdiv{
+
+            clip-path: polygon(0 0, 100% 0%, 100% 79%, 0 89%);
+            position: relative;
+            z-index: -999;       
+            top: 0;
+            left: 0;
+            height: 100vh;
+        }
+        
+
+        .backColor{
+            position: absolute;
+            background-image: linear-gradient(to top right, rgba(214, 208, 208, 0) , rgb(14, 12, 12));
+            clip-path: polygon(0 0, 100% 0%, 100% 79%, 0 89%);
+            top: 0;
+            left: 0;
+            height: 100vh;
+            width: 100%;
+            z-index: 30;
+        }
+    }
+}

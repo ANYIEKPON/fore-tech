@@ -1,0 +1,374 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: transparent;
+    padding: 15px 0px;
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        
+        
+
+        .nav_logo{
+            
+            .img{
+                height: 70px;
+                width: 150px;
+                text-decoration: none;
+            }
+        }
+        .nav_menu{
+            display: flex;
+            gap: 35px;
+            font-size: 20px;
+            color: white;
+            font-weight: 300;
+            
+            .submenu{
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                
+                .menuHover{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    cursor: pointer;
+
+                }
+                .subnav{
+                    display: flex;
+                    flex-direction: column;
+                    position: absolute;
+                    width: 160px;
+                    background-color: white;
+                    color: #f5c689;
+                    left: 0px;
+                    top: 30px;
+                    gap: 7px;
+                    padding: 25px;
+                    border-radius: 7px;
+                }
+                .noSubnav{
+                    display: none;
+                }
+            }
+        }
+
+        .breadMenu{
+            display: none;
+        }
+    }
+
+
+}
+
+.navb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: rgb(252, 248, 248);
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        
+        
+
+        .nav_logo{
+            
+            .img{
+                height: 70px;
+                width: 150px;
+                text-decoration: none;
+            }
+        }
+        .nav_menu{
+            display: flex;
+            gap: 35px;
+            font-size: 15px;
+            color: #bc7920;
+            font-weight: 300;
+            
+            .submenu{
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                
+                .menuHover{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    cursor: pointer;
+
+                }
+                .subnav{
+                    display: flex;
+                    flex-direction: column;
+                    position: absolute;
+                    width: 160px;
+                    background-color: white;
+                    color: #f5c689;
+                    left: 0px;
+                    top: 30px;
+                    gap: 7px;
+                    padding: 25px;
+                    border-radius: 7px;
+                }
+                .noSubnav{
+                    display: none;
+                }
+            }
+        }
+
+        .breadMenu{
+            display: none;
+        }
+    }
+
+
+}
+
+$small: 475px;
+$semiMedium: 640px;
+$medium: 768px;
+$big: 1024px;
+$large: 1200px;
+$veryBig: 1536px;
+
+@media (max-width: $medium) {
+    .wrapper{
+
+
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 90%;
+
+            .nav_logo{
+
+                .img{
+                    height: 50px;
+                    width: 100px;
+                    text-decoration: none;
+                }
+            }
+
+            .showMenu{
+                display: none;
+                // flex-direction: column;
+                // background-color: white;
+                // width: 100%;
+                // position: absolute;
+                // top: 100%;
+                // left: -20px;
+                // transition: 0.8 ease-in-out;
+                // gap: 15px;
+                // padding: 20px;
+                // color: #bc7920;
+
+                .socialMedia{
+                    display: flex;
+                    width: 50%;
+                    justify-content: space-around;
+    
+                    .socialIcon{
+                        display: flex;
+                        width: 30px;
+                        height: 30px;
+                        background-color: #509399;
+                        border-radius: 50%;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+                    }
+                }
+            }
+
+            .breadMenu{
+                display: none;
+                // cursor: pointer;
+            }
+            .nav_menu{
+                display: flex;
+                gap: 20px;
+                font-size: 14px;
+                color: #bc7920;
+            
+            }
+        }
+    }
+}
+
+
+@media (max-width: $semiMedium) {
+    .wrapper{
+
+
+        .navbar{
+            position: relative;
+
+            .nav_logo{
+
+                .img{
+                    height: 50px;
+                    width: 100px;
+                    text-decoration: none;
+                }
+            }
+
+            .showMenu{
+                display: flex;
+                flex-direction: column;
+                background-color: white;
+                width: 100%;
+                position: absolute;
+                top: 100%;
+                left: -20px;
+                transition: 0.8 ease-in-out;
+                gap: 15px;
+                padding: 20px;
+                color: #bc7920;
+
+                .socialMedia{
+                    display: flex;
+                    width: 50%;
+                    justify-content: space-around;
+    
+                    .socialIcon{
+                        display: flex;
+                        width: 30px;
+                        height: 30px;
+                        background-color: #509399;
+                        border-radius: 50%;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+                    }
+                }
+            }
+
+            .breadMenu{
+                display: block;
+                cursor: pointer;
+            }
+            .nav_menu{
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: $small) {
+    .wrapper{
+
+
+        .navbar{
+            position: relative;
+
+            .nav_logo{
+
+                .img{
+                    height: 50px;
+                    width: 100px;
+                    text-decoration: none;
+                }
+            }
+
+            .showMenu{
+                display: flex;
+                flex-direction: column;
+                background-color: white;
+                width: 100%;
+                position: absolute;
+                top: 100%;
+                left: -20px;
+                transition: 0.8 ease-in-out;
+                gap: 15px;
+                padding: 20px;
+                color: #bc7920;
+                min-height: 250px;
+                
+
+                .submenu{
+                    display: flex;
+                    flex-direction: column;
+                    // position: relative;
+                    
+                    .menuHover{
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        cursor: pointer;
+    
+                    }
+                    .subnav{
+                        display: flex;
+                        flex-direction: column;
+                        // position: absolute;
+                        width: 160px;
+                        // background-color: #509399;
+                        color: #ecc492;
+                        left: 0px;
+                        gap: 7px;
+                        padding: 5px 10px;
+                        border-radius: 7px;
+                    }
+                    .noSubnav{
+                        display: none;
+                    }
+                }
+
+                .socialMedia{
+                    display: flex;
+                    // top: 10px;
+                    width: 50%;
+                    justify-content: space-between;
+                    position: relative;
+                    
+                    
+
+                    .info{
+                        display: flex;
+                        position: absolute;
+                        top: 30px;
+                    }
+                    
+    
+                    .socialIcon{
+                        display: flex;
+                        width: 25px;
+                        height: 25px;
+                        background-color: #509399;
+                        border-radius: 50%;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+                        
+                    }
+                }
+            }
+
+            .breadMenu{
+                display: block;
+                cursor: pointer;
+            }
+            .nav_menu{
+                display: none;
+            }
+        }
+    }
+}

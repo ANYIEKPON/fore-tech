@@ -1,0 +1,243 @@
+.encrypt{
+    display: flex;
+    width: 99%;
+    height: 600px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    // padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    // background-color: #424141;
+    background-image: url(../../../public/contct.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    // background-image: linear-gradient(to right left, rgba(214, 208, 208, 0) , rgb(143, 19, 19));
+    color: white;
+    // background-color: beige;
+    padding: 20px 10px;
+
+    .ccntact{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;
+
+        h3{
+            font-size: 28px;
+            margin: 0px;
+            color: #e9c473;
+        }
+
+        p{
+            width: 70%;
+            font-size: 18px;
+            text-align: center;
+            margin: 0px;
+            // color: #8497b7;
+            color: white;
+        }
+    }
+
+    .contactFrm{
+        display: flex;
+        width: 50%;
+        // background-color: red;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 40px 0px;
+        gap: 15px;
+        margin-bottom: 40px;
+
+        h3{
+            // background-color: green;
+            width: 100%;
+            // text-align: center;
+            font-size: 30px;
+            margin-left: 60px;
+        }
+       
+        
+
+        .div{
+            display: flex;
+            // padding: 10px 70px;
+
+            .form{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                justify-content: flex-start;
+                align-items: flex-start;
+                padding: 5px 20px;
+                width: 100%;
+                
+                .btn{
+                    padding: 15px 0;
+                    width: 50%;
+                    border-radius: 10px;
+                    font-size: 20px;
+                    font-weight: bold;
+                    cursor: pointer;
+                    margin-left: 25px;
+                }
+
+                .formInput{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                padding: 0px 20px;
+                gap: 10px;
+
+                label{
+                    padding: 0px 10px;
+                }
+
+                input{
+                    width: 500px;
+                    height: 50px;
+                    border: none;
+                    outline: none;
+                    background-color: white;
+                    padding: 0px 10px;
+                    border-radius: 10px;
+                }
+
+                textarea{
+                        width: 500px;
+                        height: 100px;
+                        border: none;
+                        outline: none;
+                        background-color: white;
+                        padding: 10px;
+                        border-radius: 10px;
+                }
+
+                }
+            }
+        }
+
+        span{
+            width: 100%;
+            // text-align: center;
+            font-size: 25px;
+            margin-left: 200px;
+        }
+    }
+
+ 
+}
+
+$small: 475px;
+$semiMedium: 640px;
+$medium: 768px;
+$big: 1024px;
+$large: 1200px;
+$veryBig: 1536px;
+
+@media (max-width: $small) {
+    .encrypt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 750px;
+        padding: 0px 15px;
+
+        .ccntact{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 7px;
+    
+            h3{
+                font-size: 20px;
+                margin: 0px;
+                color: #e9c473;
+            }
+    
+            p{
+                width: 90%;
+                font-size: 18px;
+                text-align: center;
+                margin: 0px;
+                // color: #8497b7;
+            }
+        }
+
+        .contactFrm{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 90%;
+    
+            h3{
+                font-size: 20px;
+                color: #e9c473;
+            }
+    
+            .div{
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+    
+                .form{
+                    display: flex;
+                    flex-direction: column;
+                    padding: 20px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 30px;
+        
+        
+                    .formInput{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+        
+                        input{
+                            width: 300px;
+                            height: 50px;
+                            border: none;
+                            outline: none;
+                            padding: 0px 10px;
+                            border-radius: 5px;
+                        }
+        
+                        .formInputMessage{
+                            width: 300px;
+                            border: none;
+                            outline: none;
+                            padding: 10px;
+                            border-radius: 5px;
+                        }
+                    }
+        
+                    .btn{
+                        width: 100px;
+                        padding: 10px 0px;
+                        border: none;
+                        border-radius: 7px;
+                        font-size: 20px;
+                        color: white;
+                        background-color: #e9c473;
+                        cursor: pointer;
+                    }
+                }
+            }
+    
+    
+            
+        }
+
+        span{
+            font-size: 18px;
+            color: #e9c473;
+           }
+    }
+}
