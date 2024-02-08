@@ -149,16 +149,15 @@ $veryBig: 1536px;
         background-position: center;
         background-size: cover;
         color: white;
-        padding: 20px 10px;
-        background-color: red;
+        padding: 20px 0px;
 
     
         .contactFrm{
             display: flex;
             width: 100%;
             flex-direction: column;
-            justify-content: flex-start;
-            align-items: flex-start;
+            justify-content: center;
+            align-items: center;
             padding: 20px 0px;
             gap: 5px;
             margin-bottom: 40px;
@@ -230,9 +229,11 @@ $veryBig: 1536px;
             }
     
             span{
+                display: flex;
+                text-align: center;
                 width: 100%;
                 font-size: 25px;
-                margin-left: 50px;
+                margin-left: 0px;
                 margin-top: 10px;
             }
         }

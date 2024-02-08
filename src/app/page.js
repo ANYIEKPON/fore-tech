@@ -13,7 +13,7 @@ const page = () => {
         <div className={styles.service}><h2>PERFECT SOLUTION FOR ANY BUSINESS OPERATION</h2></div>
         <Service />
         <Contact />
-        <div className={styles.centre}>CENTRE</div>
+        {/* <div className={styles.centre}>CENTRE</div> */}
       </div>
     </div>
   )
