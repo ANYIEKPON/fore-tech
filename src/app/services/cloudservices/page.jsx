@@ -36,7 +36,7 @@ const page = () => {
                       <p>Our cloud backup and disaster recovery services enable organizations to secure their data and applications from loss or damage, assuring business continuity in the event of a disaster.</p>
                     </li>
                   </ul>
-                  With the expertise and experience to support you along the way, Foreware can assist you with cloud migration, infrastructure optimization, or security enhancement. Make an appointment with us right now to learn how our Cloud Services can support your business's success in the digital age.	
+                  With the expertise and experience to support you along the way, Foreware can assist you with cloud migration, infrastructure optimization, or security enhancement. Make an appointment with us right now to learn how our Cloud Services can support your business&apos;s success in the digital age.	
               </span>
             </div>
           </div>
