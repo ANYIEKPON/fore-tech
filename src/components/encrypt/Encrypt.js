@@ -35,7 +35,7 @@ const Contact = () => {
           )
         } */}
         <div className={styles.contactFrm}>
-          <h3>START BOOKING NOW</h3>
+          <h3>CONTACT US</h3>
           <div className={styles.div}>
             <form className={styles.form}>
                 <div className={styles.formInput}>
@@ -53,7 +53,8 @@ const Contact = () => {
                 <input className={styles.btn} type="submit" />
             </form>
           </div>
-          <span>Thanks for submitting!</span>
+          {/* add pop up message */}
+          {/* <span>Thanks for submitting!</span> */}
         </div>
         <div></div>
         

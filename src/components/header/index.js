@@ -2,7 +2,7 @@
 import { React, useState, useEffect } from 'react';
 import styles from '../header/header.module.scss';
 import Image from 'next/image';
-import pic from "../../../public/nobgColor.png";
+import pic from "../../../public/latest_logobg.png";
 import { CiMenuFries } from "react-icons/ci";
 import { LuFacebook } from "react-icons/lu";
 import { RiTwitterXFill } from "react-icons/ri";
@@ -14,12 +14,23 @@ import Link from 'next/link';
 const Header = () => {
 const [openNav, setOpenNav] = useState(false);
 const [openSubMnu, setSubMenu] = useState(false);
-// const [active, setActive] = useState(false);
+const [active, setActive] = useState({
+  id : 'One'
+});
 
 const handleClose = () => {
   setOpenNav(!openNAv);
 }
+const handleClosesub = () => {
+  setSubMenu(!openSubMnu)
+}
 
+const handleOpen = (e) => {
+    setActive({
+      id: e.currentTarget.id
+    })
+  setSubMenu(!openSubMnu)
+}
 // useEffect(() => {
 //   const close = () => {
 //     window.addEventListener("click", handleClose)
@@ -36,18 +47,33 @@ const handleClose = () => {
           <div className={openNav ? styles.showMenu : styles.nav_menu}>
             <Link href="/" className="link" onClick={handleClose} ><span>Home</span></Link>
             <Link href="/about-us" className="link" onClick={handleClose}><span>About Us</span></Link>
-            <Link href="/services" className="link" onClick={handleClose}><span>Services</span></Link>
-            {/* <div className={styles.submenu}>
-              <span className={styles.menuHover} onClick={() => setSubMenu(!openSubMnu)}>Services {openSubMnu ? <IoIosArrowUp /> : <IoIosArrowDown />}</span>
-              <div className={openSubMnu ? styles.subnav : styles.noSubnav}>
-                <Link href="/services" className="link"><span>Web Development</span></Link>
-                <Link href="/services" className="link"><span>ERP Solutions</span></Link>
-                <Link href="/services" className="link"><span>Cloud Operations</span></Link>
+            {/* <Link href="/services" className="link" onClick={handleClose}><span>Services</span></Link> */}
+            <div className={styles.submenu}>
+              <span id="One" className={styles.menuHover} onClick={(e) => handleOpen(e)}>Services { active.id === "One" && openSubMnu ? <IoIosArrowUp /> : <IoIosArrowDown />}</span>
+              <div className={active.id === "One" && openSubMnu ? styles.subnav : styles.noSubnav}>
+                <Link href="/services/softwaredev" className="link" onClick={handleClosesub}><span>Software Dev</span></Link>
+                <Link href="/services" className="link" onClick={handleClosesub}><span>Cloud Servicess</span></Link>
+                <Link href="/services" className="link" onClick={handleClosesub}><span>Bussiness Application</span></Link>
+                <Link href="/services" className="link" onClick={handleClosesub}><span>Bussiness Solutions</span></Link>
+                <Link href="/services" className="link" onClick={handleClosesub}><span>Data Services and AI</span></Link>
+                <Link href="/services" className="link" onClick={handleClosesub}><span>Digital Advisory</span></Link>
+                <Link href="/services" className="link" onClick={handleClosesub}><span>Training</span></Link>
               </div>
-            </div> */}
-            <Link href="/" className="link" onClick={handleClose}><span>Industries</span></Link>
-            {/* <Link href="/" className="link"><span>Why Choose Us</span></Link> */}
-            <Link href="/contact-us" className="link" onClick={handleClose}><span>Contact Us</span></Link>
+            </div>
+            {/* <Link href="/" className="link" onClick={handleClosesub} onClick={handleClosesub}><span>Industries</span></Link> */}
+            <div className={styles.submenu}>
+              <span id="Two" className={styles.menuHover} onClick={(e) => handleOpen(e)}>Industries { active.id === "Two" && openSubMnu ? <IoIosArrowUp /> : <IoIosArrowDown />}</span>
+              <div className={active.id === "Two" && openSubMnu ? styles.subnav : styles.noSubnav}>
+                <Link href="/services" className="link" onClick={handleClosesub} ><span>Manufactoring</span></Link>
+                <Link href="/services" className="link" onClick={handleClosesub} ><span>Retail and CPG</span></Link>
+                <Link href="/services" className="link" onClick={handleClosesub} ><span>Financial Services</span></Link>
+                <Link href="/services" className="link" onClick={handleClosesub} ><span>Health Care</span></Link>
+                <Link href="/services" className="link" onClick={handleClosesub} ><span>Automitive</span></Link>
+                <Link href="/services" className="link" onClick={handleClosesub} ><span>Aviation</span></Link>
+                <Link href="/services" className="link" onClick={handleClosesub} ><span>Logistics and Maritime</span></Link>
+              </div>
+            </div>
+            <Link href="/contact" className="link" onClick={handleClose}><span>Contact Us</span></Link>
             {
               openNav && <div className={styles.socialMedia}>
               <div className={styles.socialIcon}><LuFacebook /></div>

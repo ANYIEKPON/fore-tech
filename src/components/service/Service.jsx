@@ -42,7 +42,7 @@ const Service = () => {
                             <div className={styles.learn} id="comOne" onClick={(e) => handleOpen(e)}>{
                                (read.id === "comOne" && show) ? <IoIosArrowUp /> : <IoIosArrowDown />
                             }</div>
-                            <h4>Software Development</h4>
+                             <Link href="/services/softwaredev" className="link"><h4>Software Development</h4></Link>
                         </div>
                         {
                         (read.id === "comOne" && show) && <div className={styles.readbelow}>
@@ -72,7 +72,7 @@ const Service = () => {
                             <div className={styles.learn} id="comThree" onClick={(e) => handleOpen(e)}>{
                                 (read.id === "comThree" && show)? <IoIosArrowUp /> : <IoIosArrowDown />
                             }</div>
-                            <h4>Cloud Services</h4>
+                            <h4>Bussiness Solutions and Application</h4>
                         </div>
                         {
                         (read.id === "comThree" && show) && <div className={styles.readbelow}>
@@ -84,13 +84,13 @@ const Service = () => {
                 <div className={styles.first}>
                         <div className={styles.border}></div>
                         <div className={styles.click}>
-                            <div className={styles.learn} id="comFour" onClick={(e) => handleOpen(e)}>{
-                                (read.id === "comFour" && show)? <IoIosArrowUp /> : <IoIosArrowDown />
+                            <div className={styles.learn} id="comFive" onClick={(e) => handleOpen(e)}>{
+                                (read.id === "comFive" && show)? <IoIosArrowUp /> : <IoIosArrowDown />
                             }</div>
-                            <h4>Cloud Services</h4>
+                            <h4>Data Service and AI</h4>
                         </div>
                         {
-                        (read.id === "comFour" && show) && <div className={styles.readbelow}>
+                        (read.id === "comFive" && show) && <div className={styles.readbelow}>
                             <p>Whether for assistance on technical issues, on-site service or online support, we are always willing to ensure the success of our customers and the reliability of our end-users. Foreware Technologies provides premium on-demand support, with 24/7 remote and consulting .
                             </p>
                         </div>
@@ -99,13 +99,28 @@ const Service = () => {
                 <div className={styles.first}>
                         <div className={styles.border}></div>
                         <div className={styles.click}>
-                            <div className={styles.learn} id="comFive" onClick={(e) => handleOpen(e)}>{
-                                (read.id === "comFive" && show)? <IoIosArrowUp /> : <IoIosArrowDown />
+                            <div className={styles.learn} id="comSix" onClick={(e) => handleOpen(e)}>{
+                                (read.id === "comSix" && show)? <IoIosArrowUp /> : <IoIosArrowDown />
                             }</div>
-                            <h4>Cloud Services</h4>
+                            <h4>Digital Advisory</h4>
                         </div>
                         {
-                        (read.id === "comFive" && show) && <div className={styles.readbelow}>
+                        (read.id === "comSix" && show) && <div className={styles.readbelow}>
+                            <p>Whether for assistance on technical issues, on-site service or online support, we are always willing to ensure the success of our customers and the reliability of our end-users. Foreware Technologies provides premium on-demand support, with 24/7 remote and consulting .
+                            </p>
+                        </div>
+                        }
+                </div>
+                <div className={styles.first}>
+                        <div className={styles.border}></div>
+                        <div className={styles.click}>
+                            <div className={styles.learn} id="comSeven" onClick={(e) => handleOpen(e)}>{
+                                (read.id === "comSeven" && show)? <IoIosArrowUp /> : <IoIosArrowDown />
+                            }</div>
+                            <h4>Training</h4>
+                        </div>
+                        {
+                        (read.id === "comSeven" && show) && <div className={styles.readbelow}>
                             <p>Whether for assistance on technical issues, on-site service or online support, we are always willing to ensure the success of our customers and the reliability of our end-users. Foreware Technologies provides premium on-demand support, with 24/7 remote and consulting .
                             </p>
                         </div>

@@ -17,41 +17,32 @@ const Footer = () => {
               <div className={styles.chooseUs}>Why Choose Us</div>
               <div className={styles.footerText}>
                   <p>
-                  We understand that your company depends on the capabilities of  ERP and Cloud Solutions of your IT systems. Foreware Technologies delivers IT Solutions services such...<Link href="/why-choose-us" className="link"> <span>Read More</span></Link>
+                  We understand that your company depends on the capabilities of Technology and Cloud Solutions of your IT systems. Foreware Technologies delivers IT Solutions services such...<Link href="/why-choose-us" className="link"> <span>Read More</span></Link>
                   </p>
                 </div>
           </div>
           <div className={styles.two}>
             <h4>Services</h4>
             <div className={styles.servics}>
-                <span>Web Develoment</span>
-                {/* <span>Co-working</span> */}
-                <span>Agency</span>
-                <span>Apps</span>
+                <span>Software Development</span>
+                <span>Cloud Services</span>
+                <span>Training</span>
+                <span>Data Service and AI</span>
+                <span>Digital Advisory</span>
+                {/* <span>Bussiness Solutions</span> */}
                 <Link href="/services" className="link" style={{color: "#e48913"}}><span>More</span></Link>
             </div>
           </div>
           <div className={styles.two}>
             <h4>Pages</h4>
             <div className={styles.servics}>
+                <span>Home</span>
                 <span>About Us</span>
                 <span>Services</span>
+                <span>Industries</span>
                 <span>Contact Us</span>
             </div>
           </div>
-          {/* <div className={styles.three}>
-              <h4>Newsletter</h4>
-              <p>
-                Signup for our newsletter to get the 
-                latest news, updates and special offers in your inbox.
-              </p>
-              <div>
-                <input placeholder="enter your mail" />
-                <button><BsArrowRight /></button>
-              </div>
-              <span>Your email is safe with us. We don&apos;t spam.</span>
-          </div> */}
-          {/* <Link className="link" href="/contact-us"><button className={styles.btn}>Contact Us</button></Link> */}
         </div>
         <div className={styles.bottom}>
           <p>&copy; Copyright 2023 - <span>Foreware</span></p>

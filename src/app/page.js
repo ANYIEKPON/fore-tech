@@ -1,16 +1,37 @@
+"use client";
 import BackImg from '@/components/backImg/backImg';
 import Contact from '@/components/encrypt/Encrypt';
 import Service from '@/components/service/Service';
-import React from 'react';
+import React, { useState, useEffect} from 'react';
 import styles from "./page.module.scss";
 
 const page = () => {
+  const [fadeprop, setFadeprop] = useState({
+    fade: styles.headTestFadein
+  })
+
+  useEffect(() => {
+      const timeOut = setInterval(() => {
+        if(fadeprop.fade === styles.headTestFadein){
+          setFadeprop({
+            fade: styles.headTestFadeout
+          })} else {
+            setFadeprop({
+              fade: styles.headTestFadein
+            })
+          }
+      }, 2000)
+
+      return () => clearInterval(timeOut);
+  }, [fadeprop]);
+
   return (
     <div className={styles.mainHome}>
       <div className={styles.wrapper}>
         <BackImg />
-        <div  className={styles.headText}><h1>FOREWARE CONSULTING</h1></div>
-        <div className={styles.service}><h2>PERFECT SOLUTION FOR ANY BUSINESS OPERATION</h2></div>
+        {/* make it animate in and out */}
+        <div  className={fadeprop.fade}><h1>FOREWARE SOLUTIONS</h1> <br /><span>...moving bussinesses forward</span></div>
+        <div className={styles.service}><h2>Empower Your Business with Our IT Solutions: Explore Our Services Today!</h2></div>
         <Service />
         <Contact />
         {/* <div className={styles.centre}>CENTRE</div> */}

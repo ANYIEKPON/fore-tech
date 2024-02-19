@@ -1,5 +1,5 @@
 .footer{
-    background-color: #444242;
+    background-color: rgb(14, 12, 12);
     color: white;
 
     .wrapper{
@@ -13,7 +13,7 @@
         .top{
             display: flex;
             justify-content: space-around;
-            align-items: center;
+            // align-items: center;
             width: 85%;
 
             .one{
@@ -23,6 +23,7 @@
                 padding: 0px 40px;
                 flex: 3;
                 gap: 15px;
+                margin-top: 26px;
 
                 .chooseUs{
                     font-size: 22px;
