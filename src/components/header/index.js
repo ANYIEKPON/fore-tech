@@ -2,7 +2,7 @@
 import { React, useState, useEffect } from 'react';
 import styles from '../header/header.module.scss';
 import Image from 'next/image';
-import pic from "../../../public/latest_logobg.png";
+import pic from "../../../public/latest_Logobg.png";
 import { CiMenuFries } from "react-icons/ci";
 import { LuFacebook } from "react-icons/lu";
 import { RiTwitterXFill } from "react-icons/ri";
