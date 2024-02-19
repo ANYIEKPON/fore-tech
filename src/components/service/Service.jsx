@@ -126,7 +126,7 @@ const Service = () => {
                         </div>
                         }
                 </div>
-                <Link className="link" href="/services"><span>Learn More </span></Link>
+                <Link  className="link" href="/services"><span>Learn More </span></Link>
            </div>
         </div>
     </div>
