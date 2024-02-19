@@ -1,0 +1,92 @@
+.softwareWrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+
+    // .bckImg{
+    //     height: 200px;
+    // }
+    .headText{
+        display: flex;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        left: 0;
+        z-index: 444;
+        justify-content: center;
+        align-items: center;
+        color: transparent;
+        -webkit-text-stroke: 1px #fff;
+        margin: 220px auto;
+        align-self: center;
+        font-weight: bolder;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .soft{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 30px;
+        height: max-content;
+
+            .software{
+                display: flex;
+                width: 90%;
+        
+                .softImage{
+                    display: flex;
+                    width: 50px;
+                    height: 50px;
+                    flex: 2;
+        
+                    .img{
+                        width: 300px;
+                        height: 200px;
+                        
+                    }
+                }
+            }
+
+            .sofwaretext{
+                display: flex;
+                flex-direction: column;
+                flex: 5;
+                position: relative;
+                top: -20px;
+
+                h1{
+                    color: #fd9000;
+                }
+
+                span{
+                    line-height: 22px;
+
+                    ul{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 15px;
+
+                        .list{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 5px;
+                            h3{
+                                margin: 0px;
+                                color: #fd9000;
+                            }
+
+
+                            p{
+                                margin: 0px;
+                                line-height: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+    }
+}

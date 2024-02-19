@@ -2,7 +2,7 @@ import BackImg from '@/components/backImg/backImg';
 import Image from 'next/image';
 import React from 'react';
 import styles from "../softwaredev/software.module.scss";
-import soft from "../../../../public/websoft.jpeg"
+import soft from "../../../../public/04.jpg"
 
 const page = () => {
   return (
@@ -15,7 +15,7 @@ const page = () => {
             <div className={styles.sofwaretext}>
               <h1>Software Development</h1>
               <span>
-                  Foreware provides high-quality software development services that assist organizations succeed in today's technological world. Our talented software engineers use cutting-edge technologies and proven techniques to develop innovative solutions that are suited to your unique needs. Whether you require a unique web application, a mobile app, or robust enterprise software, we have what it takes to make your idea a reality.
+                  Foreware provides high-quality software development services that assist organizations succeed in today&apos;s technological world. Our talented software engineers use cutting-edge technologies and proven techniques to develop innovative solutions that are suited to your unique needs. Whether you require a unique web application, a mobile app, or robust enterprise software, we have what it takes to make your idea a reality.
                   Our software development services include:
                   <ul>
                     <li className={styles.list}>
@@ -32,7 +32,7 @@ const page = () => {
                       <p>The Foreware team have experience in creating responsive and intuitive websites that boost traffic while providing users with a pleasant experience. We have the competence to develop an easy-to-use informative site as well as an advanced portal for e-commerce.</p>
                     </li>
                   </ul>
-
+                  When you choose Foreware for your software development requirements, you can be confident that you&apos;re working with a team committed to achieving your goals. Contact us today to find out how we can assist you reach your company objectives with creative software solutions.	
               </span>
             </div>
           </div>

@@ -57,7 +57,7 @@ const Service = () => {
                             <div className={styles.learn} id="comTwo" onClick={(e) => handleOpen(e)}>{
                                 (read.id === "comTwo" && show)? <IoIosArrowUp /> : <IoIosArrowDown />
                             }</div>
-                            <h4>Cloud Services</h4>
+                            <Link href="/services/cloudservices" className="link"><h4>Cloud Services</h4></Link>
                         </div>
                         {
                         (read.id === "comTwo" && show) && <div className={styles.readbelow}>
@@ -72,7 +72,7 @@ const Service = () => {
                             <div className={styles.learn} id="comThree" onClick={(e) => handleOpen(e)}>{
                                 (read.id === "comThree" && show)? <IoIosArrowUp /> : <IoIosArrowDown />
                             }</div>
-                            <h4>Bussiness Solutions and Application</h4>
+                            <Link href="/services/business" className="link"><h4>Business Solution and Application</h4></Link>
                         </div>
                         {
                         (read.id === "comThree" && show) && <div className={styles.readbelow}>
@@ -87,7 +87,7 @@ const Service = () => {
                             <div className={styles.learn} id="comFive" onClick={(e) => handleOpen(e)}>{
                                 (read.id === "comFive" && show)? <IoIosArrowUp /> : <IoIosArrowDown />
                             }</div>
-                            <h4>Data Service and AI</h4>
+                            <Link href="/services/dataservices" className="link"><h4>Data Services and AI</h4></Link>
                         </div>
                         {
                         (read.id === "comFive" && show) && <div className={styles.readbelow}>
@@ -102,7 +102,7 @@ const Service = () => {
                             <div className={styles.learn} id="comSix" onClick={(e) => handleOpen(e)}>{
                                 (read.id === "comSix" && show)? <IoIosArrowUp /> : <IoIosArrowDown />
                             }</div>
-                            <h4>Digital Advisory</h4>
+                            <Link href="/services/digitaltraining" className="link"><h4>Digital Advisory</h4></Link>
                         </div>
                         {
                         (read.id === "comSix" && show) && <div className={styles.readbelow}>
@@ -117,7 +117,7 @@ const Service = () => {
                             <div className={styles.learn} id="comSeven" onClick={(e) => handleOpen(e)}>{
                                 (read.id === "comSeven" && show)? <IoIosArrowUp /> : <IoIosArrowDown />
                             }</div>
-                            <h4>Training</h4>
+                            <Link href="/services/digitaltraining" className="link"><h4>Training</h4></Link>
                         </div>
                         {
                         (read.id === "comSeven" && show) && <div className={styles.readbelow}>
