@@ -4,7 +4,7 @@ import React from 'react';
 import styles from "../dataservices/dataservices.module.scss";
 import soft from "../../../../public/03.jpg"
 
-const page = () => {
+const Page = () => {
   return (
     <div className={styles.softwareWrapper}>
       <BackImg  />
@@ -45,4 +45,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
