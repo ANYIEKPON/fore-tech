@@ -1,11 +1,11 @@
 "use client";
+import React, { useState, useEffect} from 'react';
 import BackImg from '@/components/backImg/backImg';
 import Contact from '@/components/encrypt/Encrypt';
 import Service from '@/components/service/Service';
-import React, { useState, useEffect} from 'react';
 import styles from "./page.module.scss";
 
-const page = () => {
+const Page = () => {
   const [fadeprop, setFadeprop] = useState({
     fade: styles.headTestFadein
   })
@@ -40,4 +40,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
