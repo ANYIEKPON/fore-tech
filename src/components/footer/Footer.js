@@ -14,7 +14,7 @@ const Footer = () => {
       <div className={styles.wrapper}>
         <div className={styles.top}>
           <div className={styles.one}>
-              <div className={styles.chooseUs}>Why Choose Us</div>
+              <div className={styles.chooseUs}>Why Foreware</div>
               <div className={styles.footerText}>
                   <p>
                   We understand that your company depends on the capabilities of Technology and Cloud Solutions of your IT systems. Foreware Technologies delivers IT Solutions services such...<Link href="/why-choose-us" className="link"> <span>Read More</span></Link>
@@ -26,9 +26,9 @@ const Footer = () => {
             <div className={styles.servics}>
                 <span>Software Development</span>
                 <span>Cloud Services</span>
-                <span>Training</span>
+                {/* <span>Training</span> */}
                 <span>Data Service and AI</span>
-                <span>Digital Advisory</span>
+                <span>Digital Advisory and Training</span>
                 {/* <span>Bussiness Solutions</span> */}
                 <Link href="/services" className="link" style={{color: "#e48913"}}><span>More</span></Link>
             </div>

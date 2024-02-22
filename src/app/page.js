@@ -30,7 +30,7 @@ const Page = () => {
       <div className={styles.wrapper}>
         <BackImg />
         {/* make it animate in and out */}
-        <div  className={fadeprop.fade}><h1>FOREWARE SOLUTIONS</h1> <br /><span>...moving bussinesses forward</span></div>
+        <div  className={styles.headTestFadein}><h1>FOREWARE SOLUTIONS</h1> <br /><span>...moving businesses forward</span></div>
         <div className={styles.service}><h2>Empower Your Business with Our IT Solutions: Explore Our Services Today!</h2></div>
         <Service />
         <Contact />

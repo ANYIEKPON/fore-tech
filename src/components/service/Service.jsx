@@ -72,7 +72,7 @@ const Service = () => {
                             <div className={styles.learn} id="comThree" onClick={(e) => handleOpen(e)}>{
                                 (read.id === "comThree" && show)? <IoIosArrowUp /> : <IoIosArrowDown />
                             }</div>
-                            <Link href="/services/business" className="link"><h4>Business Solution and Application</h4></Link>
+                            <Link href="/services/business" className="link"><h4>Business Solutions</h4></Link>
                         </div>
                         {
                         (read.id === "comThree" && show) && <div className={styles.readbelow}>
@@ -102,7 +102,7 @@ const Service = () => {
                             <div className={styles.learn} id="comSix" onClick={(e) => handleOpen(e)}>{
                                 (read.id === "comSix" && show)? <IoIosArrowUp /> : <IoIosArrowDown />
                             }</div>
-                            <Link href="/services/digitaltraining" className="link"><h4>Digital Advisory</h4></Link>
+                            <Link href="/services/digitaltraining" className="link"><h4>Digital Advisory and Training</h4></Link>
                         </div>
                         {
                         (read.id === "comSix" && show) && <div className={styles.readbelow}>
@@ -111,7 +111,7 @@ const Service = () => {
                         </div>
                         }
                 </div>
-                <div className={styles.first}>
+                {/* <div className={styles.first}>
                         <div className={styles.border}></div>
                         <div className={styles.click}>
                             <div className={styles.learn} id="comSeven" onClick={(e) => handleOpen(e)}>{
@@ -125,7 +125,7 @@ const Service = () => {
                             </p>
                         </div>
                         }
-                </div>
+                </div> */}
                 <Link  className="link" href="/services"><span>Learn More </span></Link>
            </div>
         </div>

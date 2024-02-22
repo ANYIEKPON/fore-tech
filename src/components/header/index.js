@@ -51,25 +51,27 @@ const handleOpen = (e) => {
             <div className={styles.submenu}>
               <span id="One" className={styles.menuHover} onClick={(e) => handleOpen(e)}>Services { active.id === "One" && openSubMnu ? <IoIosArrowUp /> : <IoIosArrowDown />}</span>
               <div className={active.id === "One" && openSubMnu ? styles.subnav : styles.noSubnav}>
-                <Link href="/services/softwaredev" className="link" onClick={handleClosesub}><span>Software Dev</span></Link>
-                <Link href="/services/cloudservices" className="link" onClick={handleClosesub}><span>Cloud Servicess</span></Link>
-                <Link href="/services/business" className="link" onClick={handleClosesub}><span>Bussiness Application</span></Link>
-                <Link href="/services/business" className="link" onClick={handleClosesub}><span>Bussiness Solutions</span></Link>
+                <Link href="/services/softwaredev" className="link" onClick={handleClosesub}><span>Software Development</span></Link>
+                <Link href="/services/cloudservices" className="link" onClick={handleClosesub}><span>Cloud Services</span></Link>
+                {/* <Link href="/services/business" className="link" onClick={handleClosesub}><span>Bussiness Application</span></Link> */}
+                <Link href="/services/business" className="link" onClick={handleClosesub}><span>Business Solutions</span></Link>
                 <Link href="/services/dataservices" className="link" onClick={handleClosesub}><span>Data Services and AI</span></Link>
-                <Link href="/services/digitaltraining" className="link" onClick={handleClosesub}><span>Digital Advisory</span></Link>
-                <Link href="/services/digitaltraining" className="link" onClick={handleClosesub}><span>Training</span></Link>
+                <Link href="/services/digitaltraining" className="link" onClick={handleClosesub}><span>Digital Advisory and Training</span></Link>
+                {/* <Link href="/services/digitaltraining" className="link" onClick={handleClosesub}><span>Training</span></Link> */}
               </div>
             </div>
             {/* <Link href="/" className="link" onClick={handleClosesub} onClick={handleClosesub}><span>Industries</span></Link> */}
             <div className={styles.submenu}>
               <span id="Two" className={styles.menuHover} onClick={(e) => handleOpen(e)}>Industries { active.id === "Two" && openSubMnu ? <IoIosArrowUp /> : <IoIosArrowDown />}</span>
               <div className={active.id === "Two" && openSubMnu ? styles.subnav : styles.noSubnav}>
-                <Link href="/services" className="link" onClick={handleClosesub} ><span>Manufactoring</span></Link>
-                <Link href="/services" className="link" onClick={handleClosesub} ><span>Retail and CPG</span></Link>
+                <Link href="/services" className="link" onClick={handleClosesub} ><span>Manufacturing</span></Link>
+                <Link href="/services" className="link" onClick={handleClosesub} ><span>Retail and FMCG</span></Link>
                 <Link href="/services" className="link" onClick={handleClosesub} ><span>Financial Services</span></Link>
                 <Link href="/services" className="link" onClick={handleClosesub} ><span>Health Care</span></Link>
-                <Link href="/services" className="link" onClick={handleClosesub} ><span>Automitive</span></Link>
+                <Link href="/services" className="link" onClick={handleClosesub} ><span>Oil and Gas</span></Link>
+                <Link href="/services" className="link" onClick={handleClosesub} ><span>Automotive</span></Link>
                 <Link href="/services" className="link" onClick={handleClosesub} ><span>Aviation</span></Link>
+                <Link href="/services" className="link" onClick={handleClosesub} ><span>Engineering</span></Link>
                 <Link href="/services" className="link" onClick={handleClosesub} ><span>Logistics and Maritime</span></Link>
               </div>
             </div>
