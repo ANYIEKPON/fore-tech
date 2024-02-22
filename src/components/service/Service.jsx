@@ -46,7 +46,7 @@ const Service = () => {
                         </div>
                         {
                         (read.id === "comOne" && show) && <div className={styles.readbelow}>
-                            <p>Whether for assistance on technical issues, on-site service or online support, we are always willing to ensure the success of our customers and the reliability of our end-users. Foreware Technologies provides premium on-demand support, with 24/7 remote and consulting .
+                            <p>FForeware provides high-quality software development services, crafting custom solutions, mobile apps, and websites. Their skilled team employs cutting-edge technologies to exceed client expectations. With a focus on client success, Foreware delivers innovative and tailored software solutions for businesses to thrive in this digital age.
                             </p>
                         </div>
                         }
@@ -61,7 +61,7 @@ const Service = () => {
                         </div>
                         {
                         (read.id === "comTwo" && show) && <div className={styles.readbelow}>
-                            <p>Whether for assistance on technical issues, on-site service or online support, we are always willing to ensure the success of our customers and the reliability of our end-users. Foreware Technologies provides premium on-demand support, with 24/7 remote and consulting .
+                            <p>Foreware provides Cloud Services enabling innovation, scalability, and operational efficiency. Their expertise covers migration, infrastructure management, security, and backup/disaster recovery. With tailored solutions, Foreware supports businesses in navigating the digital landscape effectively and securely.
                             </p>
                         </div>
                         }
@@ -76,7 +76,7 @@ const Service = () => {
                         </div>
                         {
                         (read.id === "comThree" && show) && <div className={styles.readbelow}>
-                            <p>Whether for assistance on technical issues, on-site service or online support, we are always willing to ensure the success of our customers and the reliability of our end-users. Foreware Technologies provides premium on-demand support, with 24/7 remote and consulting .
+                            <p>Foreware provides Business Solutions and Applications services, offering tailored strategies and advanced technologies for enhanced company performance. Their expertise includes Enterprise Systems Development, Business Intelligence, and Intelligent Systems, driving efficiency and profitability.
                             </p>
                         </div>
                         }
@@ -91,7 +91,7 @@ const Service = () => {
                         </div>
                         {
                         (read.id === "comFive" && show) && <div className={styles.readbelow}>
-                            <p>Whether for assistance on technical issues, on-site service or online support, we are always willing to ensure the success of our customers and the reliability of our end-users. Foreware Technologies provides premium on-demand support, with 24/7 remote and consulting .
+                            <p>Foreware offers Data Services and AI solutions, enabling businesses to leverage their data for competitive advantage and innovation. Their expertise includes Data Analytics, Data Warehousing, Data Integration, and Artificial Intelligence, delivering high-quality solutions to drive success in the digital age.
                             </p>
                         </div>
                         }
@@ -106,7 +106,7 @@ const Service = () => {
                         </div>
                         {
                         (read.id === "comSix" && show) && <div className={styles.readbelow}>
-                            <p>Whether for assistance on technical issues, on-site service or online support, we are always willing to ensure the success of our customers and the reliability of our end-users. Foreware Technologies provides premium on-demand support, with 24/7 remote and consulting .
+                            <p>Foreware&apos;s Digital Advisory and Training Services equip businesses with expertise to navigate digital transformation and stay ahead in the digital landscape. Their comprehensive offerings include digital transformation consulting, IT governance, technology adoption, and IT training, fostering growth and innovation.
                             </p>
                         </div>
                         }
