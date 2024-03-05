@@ -53,8 +53,6 @@ const Contact = () => {
                 <input className={styles.btn} type="submit" />
             </form>
           </div>
-          {/* add pop up message */}
-          {/* <span>Thanks for submitting!</span> */}
         </div>
         <div></div>
         
