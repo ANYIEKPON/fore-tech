@@ -10,7 +10,7 @@
     .headText{
         display: flex;
         position: absolute;
-        top: 0px;
+        top: 270px;
         width: 100%;
         left: 0;
         z-index: 444;
@@ -18,7 +18,7 @@
         align-items: center;
         color: transparent;
         -webkit-text-stroke: 1px #fff;
-        margin: 220px auto;
+        // margin: 220px auto;
         align-self: center;
         font-weight: bolder;
         font-size: 20px;
@@ -49,44 +49,158 @@
                         
                     }
                 }
-            }
 
-            .sofwaretext{
-                display: flex;
-                flex-direction: column;
-                flex: 5;
-                position: relative;
-                top: -20px;
-
-                h1{
-                    color: #fd9000;
-                }
-
-                span{
-                    line-height: 22px;
-
-                    ul{
-                        display: flex;
-                        flex-direction: column;
-                        gap: 15px;
-
-                        .list{
+                .sofwaretext{
+                    display: flex;
+                    flex-direction: column;
+                    flex: 5;
+                    position: relative;
+                    top: -20px;
+    
+                    h1{
+                        color: #fd9000;
+                    }
+    
+                    span{
+                        line-height: 22px;
+    
+                        ul{
                             display: flex;
                             flex-direction: column;
-                            gap: 5px;
-                            h3{
-                                margin: 0px;
-                                color: #fd9000;
-                            }
-
-
-                            p{
-                                margin: 0px;
-                                line-height: 20px;
+                            gap: 15px;
+    
+                            .list{
+                                display: flex;
+                                flex-direction: column;
+                                gap: 5px;
+                                h3{
+                                    margin: 0px;
+                                    color: #fd9000;
+                                }
+    
+    
+                                p{
+                                    margin: 0px;
+                                    line-height: 20px;
+                                }
                             }
                         }
                     }
                 }
             }
+
+          
+    }
+}
+
+
+$small: 475px;
+$semiMedium: 640px;
+$medium: 768px;
+$semiBig: 1023px;
+$big: 1024px;
+$large: 1200px;
+$veryBig: 1536px;
+
+
+@media (max-width: $small) {
+    .softwareWrapper{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        
+    
+        // .bckImg{
+        //     height: 200px;
+        // }
+        .headText{
+            display: flex;
+            position: absolute;
+            top: 260px;
+            width: 100%;
+            left: 0;
+            z-index: 444;
+            justify-content: center;
+            align-items: center;
+            color: transparent;
+            -webkit-text-stroke: 1px #fff;
+            // margin: 220px auto;
+            align-self: center;
+            font-weight: bolder;
+            font-size: 20px;
+            text-align: center;
+        }
+    
+        .soft{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 30px;
+            height: max-content;
+    
+                .software{
+                    display: flex;
+                    flex-direction: column;
+                    width: 90%;
+            
+                    .softImage{
+                        display: flex;
+                        // width: 50px;
+                        height: 50px;
+                        flex: 2;
+                        width: 100%;
+                        .img{
+                            width: 100%;
+                            height: 200px;
+                            
+                        }
+                    }
+                    .sofwaretext{
+                        display: flex;
+                        flex-direction: column;
+                        flex: 5;
+                        position: relative;
+                        justify-content: center;
+                        align-items: center;
+                        top: 10px;
+                        width: 100%;
+        
+                        h1{
+                            color: #fd9000;
+                            text-align: center;
+                        }
+        
+                        span{
+                            line-height: 22px;
+                            text-align: center;
+        
+                            ul{
+                                display: flex;
+                                flex-direction: column;
+                                gap: 15px;
+        
+                                .list{
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 5px;
+                                    h3{
+                                        margin: 0px;
+                                        color: #fd9000;
+                                    }
+        
+        
+                                    p{
+                                        margin: 0px;
+                                        line-height: 20px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+    
+                
+        }
     }
 }
