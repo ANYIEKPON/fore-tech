@@ -7,16 +7,15 @@ const page = () => {
     <div className={styles.contact}>
         <div className={styles.wrapper}>
           <BackImg />
-          <div  className={styles.headText}><h1>CONTACT US <br /> <span>OUR MISSION IS TO BRING YOU THE BEST SERVICES POSSIBLE</span></h1></div>
-            <div className={styles.forContact}>
+          
+            <div className={styles.forContact}><div  className={styles.headText}><h1>CONTACT US <br /> </h1></div>
               <div className={styles.contat}>
                   <div className={styles.first}>
                     <h2>Contact Information</h2>
                     <ul>
-                      <li>24 Mabinuori Street, Shangisha-Magodo, Lagos, Nigeria</li>
+                      <li>Nurudeen Street, Anifowoshe, Ikeja, Lagos, Nigeria</li>
                       <li>info@forewaretechnologies.com</li>
-                      <li>+234 816 0075 209</li>
-                      <li>+234 818 0147 7980 </li>
+                      <li>+234 806 6964 385</li>
                     </ul>
                   </div>
                   <div className={styles.second}>
@@ -38,3 +37,6 @@ const page = () => {
 }
 
 export default page
+
+
+{/* <span>OUR MISSION IS TO BRING YOU THE BEST SERVICES POSSIBLE</span> */}

@@ -158,6 +158,69 @@ $big: 1024px;
 $large: 1200px;
 $veryBig: 1536px;
 
+@media (max-width: $semiMedium) {
+    .footer{
+        display: flex;
+        justify-content: flex-start;
+
+        .wrapper{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            padding-top: 30px;
+            gap: 30px;
+
+            .top{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+                gap: 2rem;
+                width: 100%;
+
+                .btn{
+                    display: flex;
+                    margin-left: 3rem;
+                    padding: 5px 10px;
+                    font-size: 17px;
+                    border: none;
+                    border-radius: 10px;
+                    background-color: #509399;
+                    color: white;
+                    cursor: pointer;
+                    align-self: center;
+                    justify-self: center;
+                }
+            }
+
+            .bottom{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+                gap: 2rem;
+
+                .socialMedia{
+                    display: flex;
+                    width: 50%;
+                    justify-content: space-around;
+    
+                    .socialIcon{
+                        display: flex;
+                        width: 30px;
+                        height: 30px;
+                        background-color: #509399;
+                        border-radius: 50%;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: $small) {
     .footer{
         display: flex;

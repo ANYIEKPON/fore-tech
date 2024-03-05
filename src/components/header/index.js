@@ -18,6 +18,12 @@ const [active, setActive] = useState({
   id : 'One'
 });
 
+const [screenSize, setScreenSize] = useState(100);
+
+
+
+
+
 const handleClose = () => {
   setOpenNav(!openNAv);
 }
@@ -31,12 +37,24 @@ const handleOpen = (e) => {
     })
   setSubMenu(!openSubMnu)
 }
-// useEffect(() => {
-//   const close = () => {
-//     window.addEventListener("click", handleClose)
-//   }
-//   close();
-// })
+
+const sizeEvent = () => {
+  setScreenSize(window.innerWidth);
+}
+
+useEffect(() => {
+
+  window.addEventListener('resize', sizeEvent);
+
+  return () => {
+    window.removeEventListener('resize', sizeEvent);
+  }
+
+}, [screenSize]);
+
+useEffect(() => {
+  if(screenSize > 1024) return setOpenNav(false);
+}, [screenSize])
 
   return (
     <div className={styles.wrapper}>
@@ -86,7 +104,7 @@ const handleOpen = (e) => {
             </div>
             }
           </div>
-          <div onClick={() => setOpenNav(!openNav)}  className={styles.breadMenu}>{openNav ? <MdClose size={25} /> : <CiMenuFries size={25} />}</div>
+          <div onClick={() => setOpenNav(!openNav)}  className={styles.breadMenu}>{openNav ? <MdClose size={35} /> : <CiMenuFries size={35} />}</div>
       </div>
 
     </div>
