@@ -118,7 +118,7 @@ $veryBig: 1536px;
         display: flex;
         width: 99%;
         height: 600px;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         gap: 20px;
         margin-top: 20px;
@@ -128,12 +128,12 @@ $veryBig: 1536px;
         background-position: center;
         background-size: cover;
         color: white;
-        padding: 20px 10px;
+        padding: 20px 0px;
     
        
         .contactFrm{
             display: flex;
-            width: 100%;
+            width: 98%;
             flex-direction: column;
             justify-content: center;
             align-items: center;
@@ -144,7 +144,7 @@ $veryBig: 1536px;
             h3{
                 width: 100%;
                 font-size: 25px;
-                // margin-left: 60px;
+                text-align: center;
                 color: #fd9000
             }
            
@@ -152,8 +152,8 @@ $veryBig: 1536px;
     
             .div{
                 display: flex;
-                justify-content: flex-start;
-                align-items: flex-start;
+                justify-content: center;
+                align-items: center;
                 
     
                 .form{
@@ -180,7 +180,7 @@ $veryBig: 1536px;
                     display: flex;
                     flex-direction: column;
                     width: 100%;
-                    padding: 0px 10px;
+                    padding: 5px;
                     gap: 10px;
     
                     label{
@@ -189,13 +189,17 @@ $veryBig: 1536px;
     
                     input{
                         width: 100%;
-                        min-width: 400px;
-                        height: 50px;
+                        margin: auto;
+                        height: 30px;
                         border: none;
                         outline: none;
                         background-color: #fafcfd;
-                        padding: 0px 10px;
-                        border-radius: 10px;
+                        padding: 5px 10px;
+                        border-radius: 10px;  
+                        display: flex;
+                        align-self: center;
+                        justify-self: center;          
+                    
                     }
     
                     .formInputMessage{
@@ -204,7 +208,7 @@ $veryBig: 1536px;
                             border: none;
                             outline: none;
                             background-color: #fafcfd;
-                            padding: 10px;
+                            padding: 5px 10px;
                             border-radius: 10px;
                     }
     
@@ -293,8 +297,7 @@ $veryBig: 1536px;
                     }
     
                     input{
-                        min-width: 50%;
-                        
+                        width: 100%;
                         height: 30px;
                         border: none;
                         outline: none;

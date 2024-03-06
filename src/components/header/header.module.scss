@@ -389,24 +389,21 @@ $veryBig: 1536px;
 
 @media (max-width: $semiMedium) {
     .wrapper{
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
 
 
         .navbar{
             position: relative;
+            top: 0px;
+            width: 100%;
             display: flex;
-            max-width: 98%;
-            justify-content: space-between;
             align-items: center;
+            justify-content: space-between;
 
             .nav_logo{
 
                 .img{
-                    height: 80px;
-                    width: 130px;
+                    height: 70px;
+                    width: 120px;
                     text-decoration: none;
                 }
             }
@@ -415,15 +412,15 @@ $veryBig: 1536px;
                 display: flex;
                 flex-direction: column;
                 background-color: white;
-                width: 92%;
+                width: 98%;
                 position: absolute;
                 top: 100%;
-                left: 5px;
-                transition: 0.3s ease;
+                left: -7px;
+                transition: 3s ease;
                 gap: 15px;
-                padding: 40px 20px;
+                padding: 40px 10px;
                 color: black;
-                height: max-content;
+                height: 100vh;
                 font-size: 18px;
                 
 
@@ -443,13 +440,12 @@ $veryBig: 1536px;
                         display: flex;
                         flex-direction: column;
                         width: max-content;
-                        color: black;
-                        left: 30px;
+                        color: #509399;
+                        left: 20px;
                         position: relative;
                         gap: 7px;
                         padding: 5px 10px;
                         border-radius: 7px;
-                        position: absolute;
                     }
                     .noSubnav{
                         display: none;
@@ -458,7 +454,7 @@ $veryBig: 1536px;
 
                 .socialMedia{
                     display: flex;
-                    width: 50%;
+                    width: max-content;
                     justify-content: flex-start;
                     align-items: flex-start;
                     position: relative;
@@ -469,14 +465,14 @@ $veryBig: 1536px;
                     .info{
                         display: flex;
                         position: absolute;
-                        top: 40px;
+                        top: 35px;
                     }
                     
     
                     .socialIcon{
                         display: flex;
-                        width: 35px;
-                        height: 35px;
+                        width: 30px;
+                        height: 30px;
                         background-color: #509399;
                         border-radius: 50%;
                         justify-content: center;
@@ -491,8 +487,8 @@ $veryBig: 1536px;
                 display: block;
                 display: flex;
                 cursor: pointer;
-                width: 70px;
-                height: 70px;
+                width: 50px;
+                height: 50px;
                 border-radius: 50%;
                 background-color: white;
                 justify-content: center;
