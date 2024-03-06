@@ -104,7 +104,7 @@ useEffect(() => {
             </div>
             }
           </div>
-          <div onClick={() => setOpenNav(!openNav)}  className={styles.breadMenu}>{openNav ? <MdClose size={35} /> : <CiMenuFries size={35} />}</div>
+          <div onClick={() => setOpenNav(!openNav)}  className={styles.breadMenu}>{openNav ? <MdClose size={25} /> : <CiMenuFries size={25} />}</div>
       </div>
 
     </div>

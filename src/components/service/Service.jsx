@@ -111,21 +111,6 @@ const Service = () => {
                         </div>
                         }
                 </div>
-                {/* <div className={styles.first}>
-                        <div className={styles.border}></div>
-                        <div className={styles.click}>
-                            <div className={styles.learn} id="comSeven" onClick={(e) => handleOpen(e)}>{
-                                (read.id === "comSeven" && show)? <IoIosArrowUp /> : <IoIosArrowDown />
-                            }</div>
-                            <Link href="/services/digitaltraining" className="link"><h4>Training</h4></Link>
-                        </div>
-                        {
-                        (read.id === "comSeven" && show) && <div className={styles.readbelow}>
-                            <p>Whether for assistance on technical issues, on-site service or online support, we are always willing to ensure the success of our customers and the reliability of our end-users. Foreware Technologies provides premium on-demand support, with 24/7 remote and consulting .
-                            </p>
-                        </div>
-                        }
-                </div> */}
                 <Link  className="link" href="/services"><span>Learn More </span></Link>
            </div>
         </div>
