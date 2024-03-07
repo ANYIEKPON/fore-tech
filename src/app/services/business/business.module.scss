@@ -102,6 +102,208 @@ $big: 1024px;
 $large: 1200px;
 $veryBig: 1536px;
 
+@media (max-width: $medium) {
+    .softwareWrapper{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+
+        .headText{
+            display: flex;
+            position: absolute;
+            top: 260px;
+            width: 100%;
+            left: 0;
+            z-index: 444;
+            justify-content: center;
+            align-items: center;
+            color: transparent;
+            -webkit-text-stroke: 1px #fff;
+            // margin: 220px auto;
+            align-self: center;
+            font-weight: bolder;
+            font-size: 20px;
+            text-align: center;
+        }
+    
+        .soft{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 30px;
+            height: max-content;
+    
+                .software{
+                    display: flex;
+                    flex-direction: column;
+                    width: 90%;
+            
+                    .softImage{
+                        display: flex;
+                        // width: 50px;
+                        height: 50px;
+                        flex: 2;
+                        width: 100%;
+                        .img{
+                            width: 100%;
+                            height: 250px;
+                            
+                        }
+                    }
+                    .sofwaretext{
+                        display: flex;
+                        flex-direction: column;
+                        flex: 5;
+                        position: relative;
+                        justify-content: center;
+                        align-items: center;
+                        top: 10px;
+                        width: 100%;
+        
+                        h1{
+                            color: #fd9000;
+                            text-align: center;
+                        }
+        
+                        span{
+                            line-height: 22px;
+                            // text-align: center;
+        
+                            ul{
+                                display: flex;
+                                flex-direction: column;
+                                gap: 15px;
+                                text-align: start;
+        
+                                .list{
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 5px;
+                                    h3{
+                                        margin: 0px;
+                                        color: #fd9000;
+                                    }
+        
+        
+                                    p{
+                                        margin: 0px;
+                                        line-height: 20px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+    
+                
+        }
+    }
+}
+
+@media (max-width: $semiMedium) {
+    .softwareWrapper{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        
+    
+        // .bckImg{
+        //     height: 200px;
+        // }
+        .headText{
+            display: flex;
+            position: absolute;
+            top: 260px;
+            width: 100%;
+            left: 0;
+            z-index: 444;
+            justify-content: center;
+            align-items: center;
+            color: transparent;
+            -webkit-text-stroke: 1px #fff;
+            // margin: 220px auto;
+            align-self: center;
+            font-weight: bolder;
+            font-size: 20px;
+            text-align: center;
+        }
+    
+        .soft{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 30px;
+            height: max-content;
+    
+                .software{
+                    display: flex;
+                    flex-direction: column;
+                    width: 90%;
+            
+                    .softImage{
+                        display: flex;
+                        // width: 50px;
+                        height: 50px;
+                        flex: 2;
+                        width: 100%;
+                        .img{
+                            width: 100%;
+                            height: 200px;
+                            
+                        }
+                    }
+                    .sofwaretext{
+                        display: flex;
+                        flex-direction: column;
+                        flex: 5;
+                        position: relative;
+                        justify-content: center;
+                        align-items: center;
+                        top: 10px;
+                        width: 100%;
+        
+                        h1{
+                            color: #fd9000;
+                            text-align: center;
+                        }
+        
+                        span{
+                            line-height: 22px;
+                            text-align: center;
+        
+                            ul{
+                                display: flex;
+                                flex-direction: column;
+                                gap: 15px;
+                                text-align: start;
+        
+                                .list{
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 5px;
+                                    h3{
+                                        margin: 0px;
+                                        color: #fd9000;
+                                    }
+        
+        
+                                    p{
+                                        margin: 0px;
+                                        line-height: 20px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+    
+                
+        }
+    }
+}
 
 @media (max-width: $small) {
     .softwareWrapper{
@@ -179,6 +381,7 @@ $veryBig: 1536px;
                                 display: flex;
                                 flex-direction: column;
                                 gap: 15px;
+                                text-align: start;
         
                                 .list{
                                     display: flex;

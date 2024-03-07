@@ -29,7 +29,7 @@ const Page = () => {
                     </li>
                     <li  className={styles.list}>
                       <h3>	Intelligent Systems:  </h3>
-                      <p>Using our extensive ERP systems, you can streamline your business processes. Our ERP systems, which range from inventory management to financial reporting, are intended to increase productivity, decrease costs, and assure industry compliance.</p>
+                      <p>Using our extensive ERP systems, you can streamline your business processes. Our ERP systems, which range from inventory management to financial reporting, are intended to increase productivity, decrease costs, and assure industry compliance.We have the expertise in deployment and support enterprise systems such as SAP, Microsoft ERP offerings, and Oracle solutions.</p>
                     </li>
                   </ul>
                   We are dedicated to producing outcomes that surpass your expectations. Contact us today to learn more about how our Business Solutions and Applications may help you revolutionize your business.	

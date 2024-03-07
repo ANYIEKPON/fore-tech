@@ -353,6 +353,187 @@ $veryBig: 1536px;
 }
 
 
+@media (max-width: $medium) {
+    .service{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 30px 0px;
+        margin-bottom: 20px;
+    
+        .wrapper{
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            width: 90%;
+            gap: 20px;
+    
+    
+            .top{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 90%;
+                position: relative;
+                margin-bottom: 120px;
+                padding: 0px 10px;
+                margin-left: 0px;
+                box-sizing: border-box;
+                
+                .img1{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 270px;
+                    max-width: 300px;
+    
+                    &:hover{
+                        cursor: pointer;
+                        z-index: 555;
+                    }
+    
+                    .img{
+                        width: 350px;
+                        height: 220px;
+                    }
+    
+                }
+    
+                .img2{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 270px;
+                    max-width: 220px;
+                    position: absolute;
+                    top: 80px;
+                    left: 20px;
+                    box-sizing: border-box;
+                    
+                    &:hover{
+                        cursor: pointer;
+                        z-index: 555;
+                    }
+    
+                    .img{
+                        width: 320px;
+                        height: 220px;
+                    }
+    
+                }
+    
+                .img3{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 270px;
+                    max-width: 220px;
+                    position: absolute;
+                    top: 180px;
+                    left: 220px;
+                    box-sizing: border-box;
+    
+                    &:hover{
+                        cursor: pointer;
+                        z-index: 555;
+                    }
+    
+                    .img{
+                        width: 350px;
+                        height: 200px;
+                    }
+    
+                }
+                
+            }
+            .botom{
+                display: flex;
+               flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 90%;
+                gap: 15px;
+                padding: 20px 20px;
+                margin-left: 0px;
+              
+    
+                    .first{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        align-items: flex-start;                 
+                        border-radius: 20px 10px;
+                        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+                        background-color: white;
+                        width: 100%;
+                        padding: 10px;
+                        
+    
+                        .border{
+                            border: 1px solid rgb(196, 189, 189);
+                            width: 100%;
+                        }
+    
+            
+                            .click{
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                width: 95%;
+                                z-index: 12;
+                                padding: 0px 10px;
+                               
+                               
+                                h4{
+                                    display: flex;
+                                    font-size: 20px;
+                                }
+                                .learn{
+                                    cursor: pointer;
+                                    font-size: 20px;
+                                    display: flex;
+                                    justify-content: center;
+                                }
+                            }
+    
+                        .readbelow{
+                            display: block;
+                            padding: 0px 10px;
+                            height: max-content;                       
+                           
+    
+                            p{
+                                width: 100%;
+                                 height: max-content;
+                                display: flex;
+                                justify-content: flex-start;
+                                align-items: flex-start;
+                                margin: 0;
+                                padding: 0px;
+                                font-size: 18px;
+                                line-height: 30px;
+                            }
+                        }
+                        
+                    }
+                
+                    span{
+                        font-size: 25px;
+                        padding:60px 10px;
+                        cursor: pointer;
+                        color: #fd9000;
+                        margin-top: 40px;
+                        position: relative;
+                    }
+            }
+        }
+    }
+    
+}
 @media (max-width: $semiMedium) {
     .service{
         display: flex;
