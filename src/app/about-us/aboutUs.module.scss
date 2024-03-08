@@ -3,14 +3,10 @@
     display: flex;
     flex-direction: column;
     
-
-    // .bckImg{
-    //     height: 200px;
-    // }
     .headText{
         display: flex;
         position: absolute;
-        top: 0px;
+        top: 270px;
         width: 100%;
         left: 0;
         z-index: 444;
@@ -18,7 +14,7 @@
         align-items: center;
         color: transparent;
         -webkit-text-stroke: 1px #fff;
-        margin: 260px auto;
+        // margin: 220px auto;
         align-self: center;
         font-weight: bolder;
         font-size: 20px;
@@ -35,6 +31,7 @@
 
             .software{
                 display: flex;
+                flex-direction: column;
                 width: 90%;
         
                 .softImage{
@@ -89,9 +86,10 @@
                 }
             }
 
-            
+          
     }
 }
+
 
 $small: 475px;
 $semiMedium: 640px;
@@ -271,7 +269,7 @@ $veryBig: 1536px;
         
                         span{
                             line-height: 22px;
-                            text-align: center;
+                            // text-align: center;
         
                             ul{
                                 display: flex;
@@ -311,13 +309,10 @@ $veryBig: 1536px;
         flex-direction: column;
         
     
-        // .bckImg{
-        //     height: 200px;
-        // }
         .headText{
             display: flex;
             position: absolute;
-            // top: 260px;
+            // top: 290px;
             width: 100%;
             left: 0;
             z-index: 444;
@@ -374,7 +369,7 @@ $veryBig: 1536px;
         
                         span{
                             line-height: 22px;
-                            text-align: center;
+                            // text-align: center;
         
                             ul{
                                 display: flex;

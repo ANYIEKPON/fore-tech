@@ -25,7 +25,7 @@ const [screenSize, setScreenSize] = useState(100);
 
 
 const handleClose = () => {
-  setOpenNav(!openNAv);
+  setOpenNav(!openNav);
 }
 const handleClosesub = () => {
   setSubMenu(!openSubMnu)
