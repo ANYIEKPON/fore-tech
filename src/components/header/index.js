@@ -29,6 +29,7 @@ const handleClose = () => {
 }
 const handleClosesub = () => {
   setSubMenu(!openSubMnu)
+  handleClose();
 }
 
 const handleOpen = (e) => {
