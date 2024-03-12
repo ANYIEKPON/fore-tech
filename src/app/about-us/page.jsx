@@ -41,7 +41,7 @@ const handleExpand = (e) => {
                         With Foreware Technologies as your IT partner, you can expect nothing less than great service, creative solutions, and dedication to your success. 
                     </span>
                     </p>
-                    <button id="one" onClick={(e) => handleExpand(e)}>read more</button>
+                    <button id="one" onClick={(e) => handleExpand(e)}>{(read.id === "one" && expand) ? "show less" : "read more"}</button>
                 </div>
               </div>
             </div>
@@ -58,7 +58,7 @@ const handleExpand = (e) => {
                     which is why we offer a comprehensive range of IT services tailored to suit small, medium, and large businesses alike. Whether it&apos;s deploying cutting-edge business applications, leveraging the potential of cloud services, or harnessing the power of data and AI, we&apos;re here to empower our clients to succeed. With Foreware Technologies by your side, you can rest assured that your IT infrastructure is in good hands, allowing you to focus on what you do best – growing your business.
                     </span>
                     </p>
-                    <button id="two" onClick={(e) => handleExpand(e)}>read more</button>
+                    <button id="two" onClick={(e) => handleExpand(e)}>{(read.id === "two" && expand) ? "show less" : "read more"}</button>
                 </div>
               </div>
             </div>

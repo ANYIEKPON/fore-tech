@@ -1,6 +1,9 @@
 import BackImg from '@/components/backImg/backImg';
 import Image from 'next/image';
 import React from 'react';
+import { SiBmcsoftware } from "react-icons/si";
+import { CiMobile4 } from "react-icons/ci";
+import { CgWebsite } from "react-icons/cg";
 import styles from "../softwaredev/software.module.scss";
 import soft from "../../../../public/04.jpg"
 
@@ -17,19 +20,41 @@ const Page = () => {
               <span>
                   Foreware provides high-quality software development services that assist organizations succeed in today&apos;s technological world. Our talented software engineers use cutting-edge technologies and proven techniques to develop innovative solutions that are suited to your unique needs. Whether you require a unique web application, a mobile app, or robust enterprise software, we have what it takes to make your idea a reality.
                   Our software development services include:
+                  
                   <ul>
                     <li className={styles.list}>
-                      <h3>Custom Software Development:</h3>
-                      <p>We provide specialized software solutions that meet your specific business concerns. Our staff collaborates directly with you to totally grasp what you expect and create a solution that surpasses what you expect.</p>
+                    <div className={styles.text}>
+                        <div className={styles.iconn}>
+                          <div className={styles.icons}><SiBmcsoftware /></div>
+                          <h3>Custom Software Development:</h3>
+                        </div>
+                        <div className={styles.writeUp}>
+                        <p>We provide specialized software solutions that meet your specific business concerns. Our staff collaborates directly with you to totally grasp what you expect and create a solution that surpasses what you expect.</p>
+                        </div>
+                      </div>
                     </li>
-                    <li  className={styles.list}>
-                      <h3>	Mobile Applications:</h3>
-                      <p>We develop native and cross-platform mobile apps that allow you to reach those you want to reach on their chosen gadgets. Our mobile apps are meant to be quick, safe, and user-friendly, resulting in an excellent user experience.
+                    <li className={styles.list}>
+                    <div className={styles.text}>
+                        <div className={styles.iconn}>
+                          <div className={styles.icons}><CiMobile4 /></div>
+                          <h3>	Mobile Applications:</h3>
+                        </div>
+                        <div className={styles.writeUp}>
+                        <p>We develop native and cross-platform mobile apps that allow you to reach those you want to reach on their chosen gadgets. Our mobile apps are meant to be quick, safe, and user-friendly, resulting in an excellent user experience.
                       </p>
+                        </div>
+                      </div>
                     </li>
-                    <li  className={styles.list}>
-                      <h3>	Website Development: </h3>
-                      <p>The Foreware team have experience in creating responsive and intuitive websites that boost traffic while providing users with a pleasant experience. We have the competence to develop an easy-to-use informative site as well as an advanced portal for e-commerce.</p>
+                    <li className={styles.list}>
+                    <div className={styles.text}>
+                        <div className={styles.iconn}>
+                          <div className={styles.icons}><CgWebsite /></div>
+                          <h3>	Website Development: </h3>
+                        </div>
+                        <div className={styles.writeUp}>
+                        <p>The Foreware team have experience in creating responsive and intuitive websites that boost traffic while providing users with a pleasant experience. We have the competence to develop an easy-to-use informative site as well as an advanced portal for e-commerce.</p>
+                        </div>
+                      </div>
                     </li>
                   </ul>
                   When you choose Foreware for your software development requirements, you can be confident that you&apos;re working with a team committed to achieving your goals. Contact us today to find out how we can assist you reach your company objectives with creative software solutions.	

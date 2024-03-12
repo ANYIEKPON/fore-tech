@@ -1,7 +1,10 @@
 import BackImg from '@/components/backImg/backImg';
 import Image from 'next/image';
-import { MdSystemUpdateAlt, MdOutlineAnalytics } from "react-icons/md";
+import { MdOutlineSecurity } from "react-icons/md";
 import { GiArtificialIntelligence } from "react-icons/gi";
+import { TbCloudMinus } from "react-icons/tb";
+import { SiGoogletagmanager } from "react-icons/si";
+import { RiDeviceRecoverLine } from "react-icons/ri";
 import React from 'react';
 import styles from "../cloudservices/cloudservices.module.scss";
 import soft from "../../../../public/websoft.jpeg"
@@ -23,7 +26,7 @@ const Page = () => {
                     <li className={styles.list}>
                     <div className={styles.text}>
                         <div className={styles.iconn}>
-                          <div className={styles.icons}><MdSystemUpdateAlt /></div>
+                          <div className={styles.icons}><TbCloudMinus /></div>
                           <h3> Cloud Migration:</h3>
                         </div>
                         <div className={styles.writeUp}>
@@ -34,7 +37,7 @@ const Page = () => {
                     <li className={styles.list}>
                     <div className={styles.text}>
                         <div className={styles.iconn}>
-                          <div className={styles.icons}><MdOutlineAnalytics /></div>
+                          <div className={styles.icons}><SiGoogletagmanager /></div>
                           <h3> Cloud Infrastructure Management: </h3>
                         </div>
                         <div className={styles.writeUp}>
@@ -46,7 +49,7 @@ const Page = () => {
                     <li className={styles.list}>
                     <div className={styles.text}>
                         <div className={styles.iconn}>
-                          <div className={styles.icons}><GiArtificialIntelligence /></div>
+                          <div className={styles.icons}><MdOutlineSecurity /></div>
                           <h3>	Cloud Security:  </h3>
                         </div>
                         <div className={styles.writeUp}>
@@ -57,7 +60,7 @@ const Page = () => {
                     <li className={styles.list}>
                     <div className={styles.text}>
                         <div className={styles.iconn}>
-                          <div className={styles.icons}><GiArtificialIntelligence /></div>
+                          <div className={styles.icons}><RiDeviceRecoverLine /></div>
                           <h3>	Cloud Backup and Disaster Recovery:   </h3>
                         </div>
                         <div className={styles.writeUp}>
@@ -66,15 +69,7 @@ const Page = () => {
                       </div>
                     </li>
                   </ul>
-                  {/* <ul>
-                   
-                  
-                    
-                    <li  className={styles.list}>
-                      <h3>	Cloud Backup and Disaster Recovery:   </h3>
-                      <p>Our cloud backup and disaster recovery services enable organizations to secure their data and applications from loss or damage, assuring business continuity in the event of a disaster.</p>
-                    </li>
-                  </ul> */}
+                 
                   With the expertise and experience to support you along the way, Foreware can assist you with cloud migration, infrastructure optimization, or security enhancement. Make an appointment with us right now to learn how our Cloud Services can support your business&apos;s success in the digital age.	
               </span>
             </div>

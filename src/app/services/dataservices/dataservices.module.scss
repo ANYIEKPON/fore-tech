@@ -168,24 +168,58 @@ $veryBig: 1536px;
         
                         span{
                             line-height: 22px;
-                            // text-align: center;
-        
+                            text-align: start;
+                            // width: 300px;
+                            width: 80vw;
+                           
+
                             ul{
                                 display: flex;
-                                flex-direction: column;
+                                flex-wrap: wrap;
+                                width: 90%;
                                 gap: 15px;
-                                text-align: start;
+                                line-height: 25px;
+                                justify-content: center;
+                                align-content: center;
+                               
         
-                                .list{
-                                    display: flex;
-                                    flex-direction: column;
-                                    gap: 5px;
+                           .list{
+                                display: flex;
+                                flex-direction: column;
+                                gap: 5px;
+                                width: 80vw;
+                                border: 0.5px solid rgb(94, 92, 92);
+                                border-radius: 10px;
+                                -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                                box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+                                padding: 15px 20px;
+                                justify-self: center;
+                                align-self: center;
+                                position: relative;
+                                left: -20px;
+    
+                                   
+                            .iconn{
+                                display: flex;
+                                align-items: flex-start;
+                                justify-content: flex-start;
+                                gap: 0.5rem;
+                                margin-bottom: 10px;
+    
                                     h3{
-                                        margin: 0px;
                                         color: #fd9000;
+                                        margin: 0px;
+                                        font-size: 18px;
                                     }
-        
-        
+    
+                                    .icons{
+                                        display: flex;
+                                        justify-self: center;
+                                        align-self: center;
+                                        font-size: 30px;
+                                    }
+                            }
+                                   
                                     p{
                                         margin: 0px;
                                         line-height: 20px;
@@ -271,24 +305,58 @@ $veryBig: 1536px;
         
                         span{
                             line-height: 22px;
-                            text-align: center;
-        
+                            text-align: start;
+                            // width: 300px;
+                            width: 80vw;
+                           
+
                             ul{
                                 display: flex;
-                                flex-direction: column;
+                                flex-wrap: wrap;
+                                width: 90%;
                                 gap: 15px;
-                                text-align: start;
+                                line-height: 25px;
+                                justify-content: center;
+                                align-content: center;
+                               
         
-                                .list{
-                                    display: flex;
-                                    flex-direction: column;
-                                    gap: 5px;
+                           .list{
+                                display: flex;
+                                flex-direction: column;
+                                gap: 5px;
+                                width: 80vw;
+                                border: 0.5px solid rgb(94, 92, 92);
+                                border-radius: 10px;
+                                -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                                box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+                                padding: 15px 20px;
+                                justify-self: center;
+                                align-self: center;
+                                position: relative;
+                                left: -20px;
+    
+                                   
+                            .iconn{
+                                display: flex;
+                                align-items: flex-start;
+                                justify-content: flex-start;
+                                gap: 0.5rem;
+                                margin-bottom: 10px;
+    
                                     h3{
-                                        margin: 0px;
                                         color: #fd9000;
+                                        margin: 0px;
+                                        font-size: 18px;
                                     }
-        
-        
+    
+                                    .icons{
+                                        display: flex;
+                                        justify-self: center;
+                                        align-self: center;
+                                        font-size: 30px;
+                                    }
+                            }
+                                   
                                     p{
                                         margin: 0px;
                                         line-height: 20px;
@@ -375,23 +443,57 @@ $veryBig: 1536px;
                         span{
                             line-height: 22px;
                             text-align: center;
-        
+                            // width: 300px;
+                            width: 80vw;
+                           
+
                             ul{
                                 display: flex;
-                                flex-direction: column;
+                                flex-wrap: wrap;
+                                width: 90%;
                                 gap: 15px;
-                                text-align: start;
+                                line-height: 25px;
+                                justify-content: center;
+                                align-content: center;
+                               
         
-                                .list{
-                                    display: flex;
-                                    flex-direction: column;
-                                    gap: 5px;
+                           .list{
+                                display: flex;
+                                flex-direction: column;
+                                gap: 5px;
+                                width: 80vw;
+                                border: 0.5px solid rgb(94, 92, 92);
+                                border-radius: 10px;
+                                -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                                box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+                                padding: 15px 20px;
+                                justify-self: center;
+                                align-self: center;
+                                position: relative;
+                                left: -20px;
+    
+                                   
+                            .iconn{
+                                display: flex;
+                                align-items: flex-start;
+                                justify-content: flex-start;
+                                gap: 0.5rem;
+                                margin-bottom: 10px;
+    
                                     h3{
-                                        margin: 0px;
                                         color: #fd9000;
+                                        margin: 0px;
+                                        font-size: 18px;
                                     }
-        
-        
+    
+                                    .icons{
+                                        display: flex;
+                                        justify-self: center;
+                                        align-self: center;
+                                        font-size: 30px;
+                                    }
+                            }
+                                   
                                     p{
                                         margin: 0px;
                                         line-height: 20px;
