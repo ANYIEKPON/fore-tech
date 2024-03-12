@@ -68,17 +68,41 @@
                             display: flex;
                             flex-direction: column;
                             gap: 15px;
+                            line-height: 25px;
     
-                            .list{
-                                display: flex;
-                                flex-direction: column;
-                                gap: 5px;
+                       .list{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 5px;
+                            width: 70%;
+                            border: 0.5px solid rgb(194, 191, 191);
+                            border-radius: 10px;
+                            -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                            box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+                            padding: 15px 20px;
+
+                               
+                        .iconn{
+                            display: flex;
+                            align-items: flex-start;
+                            justify-content: flex-start;
+                            gap: 0.5rem;
+                            margin-bottom: 10px;
+
                                 h3{
-                                    margin: 0px;
                                     color: #fd9000;
+                                    margin: 0px;
+                                    font-size: 18px;
                                 }
-    
-    
+
+                                .icons{
+                                    display: flex;
+                                    justify-self: center;
+                                    align-self: center;
+                                    font-size: 35px;
+                                }
+                        }
+                               
                                 p{
                                     margin: 0px;
                                     line-height: 20px;
