@@ -19,13 +19,8 @@ const Page = () => {
               Our Digital Advisory Services include:
                   <ul>
                     <li className={styles.list}>
-                      <h3> Digital Transformation Consulting: Data Analytics: </h3>
+                      <h3> Digital Transformation Consulting: </h3>
                       <p>Our digital transformation consulting services help businesses identify areas for improvement, develop a roadmap for change, and implement digital solutions that drive growth and innovation.</p>
-                    </li>
-                    <li  className={styles.list}>
-                      <h3> IT Governance and Compliance: </h3>
-                      <p>We provide IT governance and compliance services that help businesses ensure their IT practices align with industry standards and regulations, reducing the risk of non-compliance.
-                      </p>
                     </li>
                     <li  className={styles.list}>
                       <h3>	Technology Adoption and Integration: </h3>

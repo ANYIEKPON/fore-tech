@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     
+    
     .headText{
         display: flex;
         position: absolute;
@@ -28,58 +29,84 @@
         width: 100%;
         margin-bottom: 30px;
         height: max-content;
+        position: relative;
 
             .software{
                 display: flex;
-                flex-direction: column;
-                width: 90%;
-        
-                .softImage{
-                    display: flex;
-                    width: 50px;
-                    height: 50px;
-                    flex: 2;
-        
-                    .img{
-                        width: 300px;
-                        height: 200px;
-                        
-                    }
-                }
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                gap: 2rem;
+                position: relative;
 
                 .sofwaretext{
                     display: flex;
-                    flex-direction: column;
-                    flex: 5;
                     position: relative;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    gap: 2rem;
                     top: -20px;
+                    border: 1px solid;
+                    width: 42%;
+                    min-height: 200px;
+                    padding: 10px 20px;
+                    border-radius: 10px;
+                    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+                    background-color: white;
+                    
+
     
-                    h1{
-                        color: #fd9000;
-                    }
-    
-                    span{
-                        line-height: 22px;
-    
-                        ul{
+                    .text{
+                        display: flex;
+                        flex-direction: column;
+
+                        .iconn{
                             display: flex;
-                            flex-direction: column;
-                            gap: 15px;
-    
-                            .list{
+                            align-items: flex-start;
+                            justify-content: flex-start;
+                            gap: 1rem;
+
+                            h1{
+                                color: #fd9000;
+                                margin: 0px;
+                                font-size: 30px;
+                            }
+
+                            .icons{
                                 display: flex;
-                                flex-direction: column;
-                                gap: 5px;
-                                h3{
-                                    margin: 0px;
-                                    color: #fd9000;
+                                justify-self: center;
+                                align-self: center;
+                                font-size: 35px;
+                            }
+                        }
+        
+                        .writeUp{
+                            display: inline-block;
+                            height: max-content;
+                           
+
+                            p{
+                                line-height: 25px;
+
+                                .opnDiv{
+                                    display: inline-block;
+                                    height: max-content;
+                                    
                                 }
-    
-    
-                                p{
-                                    margin: 0px;
-                                    line-height: 20px;
+
+                                .clsDiv{
+                                    display: none;
+                                    height: 0px;
                                 }
+                            }
+
+                            button{
+                                cursor: pointer;
+                                padding: 10px;
+                                border: none;
+                                border-radius: 3px;
+                                color: #fd9000;
                             }
                         }
                     }
@@ -131,70 +158,93 @@ $veryBig: 1536px;
             width: 100%;
             margin-bottom: 30px;
             height: max-content;
+            position: relative;
     
                 .software{
                     display: flex;
-                    flex-direction: column;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 2rem;
+                    position: relative;
                     width: 90%;
-            
-                    .softImage{
-                        display: flex;
-                        // width: 50px;
-                        height: 50px;
-                        flex: 2;
-                        width: 100%;
-                        .img{
-                            width: 100%;
-                            height: 250px;
-                            
-                        }
-                    }
+    
                     .sofwaretext{
                         display: flex;
-                        flex-direction: column;
-                        flex: 5;
                         position: relative;
-                        justify-content: center;
-                        align-items: center;
-                        top: 10px;
-                        width: 100%;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+                        gap: 2rem;
+                        top: -20px;
+                        border: 1px solid;
+                        width: 750px;
+                        max-width: 770px;
+                        min-height: 200px;
+                        padding: 10px 15px;
+                        border-radius: 10px;
+                        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+                        background-color: white;
+                        
+    
         
-                        h1{
-                            color: #fd9000;
-                            text-align: center;
-                        }
-        
-                        span{
-                            line-height: 22px;
-                            // text-align: center;
-        
-                            ul{
+                        .text{
+                            display: flex;
+                            flex-direction: column;
+    
+                            .iconn{
                                 display: flex;
-                                flex-direction: column;
-                                gap: 15px;
-                                text-align: start;
-        
-                                .list{
+                                align-items: flex-start;
+                                justify-content: flex-start;
+                                gap: 1rem;
+    
+                                h1{
+                                    color: #fd9000;
+                                    margin: 0px;
+                                    font-size: 30px;
+                                }
+    
+                                .icons{
                                     display: flex;
-                                    flex-direction: column;
-                                    gap: 5px;
-                                    h3{
-                                        margin: 0px;
-                                        color: #fd9000;
+                                    justify-self: center;
+                                    align-self: center;
+                                    font-size: 35px;
+                                }
+                            }
+            
+                            .writeUp{
+                                display: inline-block;
+                                height: max-content;
+                               
+    
+                                p{
+                                    line-height: 25px;
+    
+                                    .opnDiv{
+                                        display: inline-block;
+                                        height: max-content;
+                                        
                                     }
-        
-        
-                                    p{
-                                        margin: 0px;
-                                        line-height: 20px;
+    
+                                    .clsDiv{
+                                        display: none;
+                                        height: 0px;
                                     }
+                                }
+    
+                                button{
+                                    cursor: pointer;
+                                    padding: 10px;
+                                    border: none;
+                                    border-radius: 3px;
+                                    color: #fd9000;
                                 }
                             }
                         }
                     }
                 }
     
-                
+              
         }
     }
 }
@@ -234,70 +284,93 @@ $veryBig: 1536px;
             width: 100%;
             margin-bottom: 30px;
             height: max-content;
+            position: relative;
     
                 .software{
                     display: flex;
-                    flex-direction: column;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 2rem;
+                    position: relative;
                     width: 90%;
-            
-                    .softImage{
-                        display: flex;
-                        // width: 50px;
-                        height: 50px;
-                        flex: 2;
-                        width: 100%;
-                        .img{
-                            width: 100%;
-                            height: 200px;
-                            
-                        }
-                    }
+    
                     .sofwaretext{
                         display: flex;
-                        flex-direction: column;
-                        flex: 5;
                         position: relative;
-                        justify-content: center;
-                        align-items: center;
-                        top: 10px;
-                        width: 100%;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+                        gap: 2rem;
+                        top: -20px;
+                        border: 1px solid;
+                        width: 600px;
+                        max-width: 640px;
+                        min-height: 200px;
+                        padding: 10px 15px;
+                        border-radius: 10px;
+                        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+                        background-color: white;
+                        
+    
         
-                        h1{
-                            color: #fd9000;
-                            text-align: center;
-                        }
-        
-                        span{
-                            line-height: 22px;
-                            // text-align: center;
-        
-                            ul{
+                        .text{
+                            display: flex;
+                            flex-direction: column;
+    
+                            .iconn{
                                 display: flex;
-                                flex-direction: column;
-                                gap: 15px;
-                                text-align: start;
-        
-                                .list{
+                                align-items: flex-start;
+                                justify-content: flex-start;
+                                gap: 1rem;
+    
+                                h1{
+                                    color: #fd9000;
+                                    margin: 0px;
+                                    font-size: 30px;
+                                }
+    
+                                .icons{
                                     display: flex;
-                                    flex-direction: column;
-                                    gap: 5px;
-                                    h3{
-                                        margin: 0px;
-                                        color: #fd9000;
+                                    justify-self: center;
+                                    align-self: center;
+                                    font-size: 35px;
+                                }
+                            }
+            
+                            .writeUp{
+                                display: inline-block;
+                                height: max-content;
+                               
+    
+                                p{
+                                    line-height: 25px;
+    
+                                    .opnDiv{
+                                        display: inline-block;
+                                        height: max-content;
+                                        
                                     }
-        
-        
-                                    p{
-                                        margin: 0px;
-                                        line-height: 20px;
+    
+                                    .clsDiv{
+                                        display: none;
+                                        height: 0px;
                                     }
+                                }
+    
+                                button{
+                                    cursor: pointer;
+                                    padding: 10px;
+                                    border: none;
+                                    border-radius: 3px;
+                                    color: #fd9000;
                                 }
                             }
                         }
                     }
                 }
     
-                
+              
         }
     }
 }
@@ -334,70 +407,94 @@ $veryBig: 1536px;
             width: 100%;
             margin-bottom: 30px;
             height: max-content;
+            position: relative;
     
                 .software{
                     display: flex;
-                    flex-direction: column;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 2rem;
+                    position: relative;
                     width: 90%;
-            
-                    .softImage{
-                        display: flex;
-                        // width: 50px;
-                        height: 50px;
-                        flex: 2;
-                        width: 100%;
-                        .img{
-                            width: 100%;
-                            height: 200px;
-                            
-                        }
-                    }
+    
                     .sofwaretext{
                         display: flex;
-                        flex-direction: column;
-                        flex: 5;
                         position: relative;
-                        justify-content: center;
-                        align-items: center;
-                        top: 10px;
-                        width: 100%;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+                        gap: 2rem;
+                        top: -20px;
+                        border: 1px solid;
+                        width: 400px;
+                        max-width: 450px;
+                        min-height: 200px;
+                        padding: 10px 15px;
+                        border-radius: 10px;
+                        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+                        background-color: white;
+                        margin: 0px auto;
+                        
+    
         
-                        h1{
-                            color: #fd9000;
-                            text-align: center;
-                        }
-        
-                        span{
-                            line-height: 22px;
-                            // text-align: center;
-        
-                            ul{
+                        .text{
+                            display: flex;
+                            flex-direction: column;
+    
+                            .iconn{
                                 display: flex;
-                                flex-direction: column;
-                                gap: 15px;
-                                text-align: start;
-        
-                                .list{
+                                align-items: flex-start;
+                                justify-content: flex-start;
+                                gap: 1rem;
+    
+                                h1{
+                                    color: #fd9000;
+                                    margin: 0px;
+                                    font-size: 30px;
+                                }
+    
+                                .icons{
                                     display: flex;
-                                    flex-direction: column;
-                                    gap: 5px;
-                                    h3{
-                                        margin: 0px;
-                                        color: #fd9000;
+                                    justify-self: center;
+                                    align-self: center;
+                                    font-size: 35px;
+                                }
+                            }
+            
+                            .writeUp{
+                                display: inline-block;
+                                height: max-content;
+                               
+    
+                                p{
+                                    line-height: 25px;
+    
+                                    .opnDiv{
+                                        display: inline-block;
+                                        height: max-content;
+                                        
                                     }
-        
-        
-                                    p{
-                                        margin: 0px;
-                                        line-height: 20px;
+    
+                                    .clsDiv{
+                                        display: none;
+                                        height: 0px;
                                     }
+                                }
+    
+                                button{
+                                    cursor: pointer;
+                                    padding: 10px;
+                                    border: none;
+                                    border-radius: 3px;
+                                    color: #fd9000;
                                 }
                             }
                         }
                     }
                 }
     
-                
+              
         }
     }
 }

@@ -69,6 +69,13 @@
 
                         li{
                             list-style: none;
+
+                            .list{
+                                display: flex;
+                                gap: 10px;
+                                justify-content: flex-start;
+                                align-items: flex-start;
+                            }
                         }
                     }
                 }
@@ -82,6 +89,9 @@
                     // width: 600px;
                     background-color: #f8f9fa;
                     padding: 30px;
+                    border-radius: 10px;
+                    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
 
                     form{
                         gap: 30px;
@@ -101,7 +111,7 @@
                         textarea{
                             width: 300px;
                             border: none;
-                            padding: 0px 7px;
+                            padding: 10px 7px;
                             border-radius: 8px;
                         }
 
@@ -204,6 +214,13 @@ $veryBig: 1536px;
                             li{
                                 list-style: none;
                                 font-size: 17px;
+
+                                .list{
+                                    display: flex;
+                                    gap: 10px;
+                                    justify-content: flex-start;
+                                    align-items: flex-start;
+                                }
                             }
                         }
                     }
@@ -335,6 +352,13 @@ $veryBig: 1536px;
                             li{
                                 list-style: none;
                                 font-size: 17px;
+
+                                .list{
+                                    display: flex;
+                                    gap: 10px;
+                                    justify-content: flex-start;
+                                    align-items: flex-start;
+                                }
                             }
                         }
                     }
@@ -467,6 +491,13 @@ $veryBig: 1536px;
                             li{
                                 list-style: none;
                                 font-size: 17px;
+
+                                .list{
+                                    display: flex;
+                                    gap: 10px;
+                                    justify-content: flex-start;
+                                    align-items: flex-start;
+                                }
                             }
                         }
                     }

@@ -526,17 +526,17 @@ $veryBig: 1536px;
                 display: flex;
                 flex-direction: column;
                 background-color: white;
+                height: 100vh;
                 width: 98%;
                 position: absolute;
-                top: 100%;
+                top: 100px;
                 left: -7px;
-                transition: 3s ease;
+                transition: height 2s;
                 gap: 15px;
                 padding: 40px 10px;
                 color: black;
-                height: 100vh;
                 font-size: 18px;
-                
+                // animation: mymove 3s ease-in-out forwards;
 
                 .submenu{
                     display: flex;
@@ -595,6 +595,11 @@ $veryBig: 1536px;
                         
                     }
                 }
+            }
+
+            @keyframes mymove {
+                from{transition: 0.1s ease-in;}
+                to{top: 80px;}
             }
 
             .breadMenu{

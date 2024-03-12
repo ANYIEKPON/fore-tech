@@ -17,7 +17,7 @@ const Footer = () => {
               <div className={styles.chooseUs}>Why Foreware</div>
               <div className={styles.footerText}>
                   <p>
-                  We understand that your company depends on the capabilities of Technology and Cloud Solutions of your IT systems. Foreware Technologies delivers IT Solutions services such...<Link href="/why-choose-us" className="link"> <span>Read More</span></Link>
+                  At Foreware Technologies, we're all about helping businesses thrive in today's digital landscape. Our team is passionate about harnessing the power of technology to drive innovation and...<Link href="/about-us" className="link"> <span>Read More</span></Link>
                   </p>
                 </div>
           </div>
@@ -46,7 +46,7 @@ const Footer = () => {
         </div>
         <div className={styles.bottom}>
           <p>&copy; Copyright 2023 - <span>Foreware</span></p>
-          <span className={styles.infomail}>info@forewaretechnologies.com</span>
+          {/* <span className={styles.infomail}>info@forewaretechnologies.com</span> */}
           <div className={styles.socialMedia}>
             <div className={styles.socialIcon}><LuFacebook /></div>
             <div className={styles.socialIcon}><RiTwitterXFill /></div>

@@ -47,7 +47,7 @@ const Contact = () => {
                   <input type="email" placeholder="Email" />
                 </div >
                 <div className={styles.formInput}>
-                  <label>Type your Message Here.</label>
+                  <label>Type your Message Here *</label>
                   <textarea placeholder="Message" rows="5" cols="30"  className={styles.formInputMessage} />
                 </div>
                 <input className={styles.btn} type="submit" />

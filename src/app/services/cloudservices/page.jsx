@@ -1,5 +1,7 @@
 import BackImg from '@/components/backImg/backImg';
 import Image from 'next/image';
+import { MdSystemUpdateAlt, MdOutlineAnalytics } from "react-icons/md";
+import { GiArtificialIntelligence } from "react-icons/gi";
 import React from 'react';
 import styles from "../cloudservices/cloudservices.module.scss";
 import soft from "../../../../public/websoft.jpeg"
@@ -19,23 +21,60 @@ const Page = () => {
               Our Cloud Services include:
                   <ul>
                     <li className={styles.list}>
-                      <h3> Cloud Migration:</h3>
-                      <p>We assist organizations in smoothly migrating their existing workloads, apps, and data to the cloud, thereby guaranteeing least interruption and optimal performance.</p>
+                    <div className={styles.text}>
+                        <div className={styles.iconn}>
+                          <div className={styles.icons}><MdSystemUpdateAlt /></div>
+                          <h3> Cloud Migration:</h3>
+                        </div>
+                        <div className={styles.writeUp}>
+                        <p>We assist organizations in smoothly migrating their existing workloads, apps, and data to the cloud, thereby guaranteeing least interruption and optimal performance.</p>
+                        </div>
+                      </div>
                     </li>
-                    <li  className={styles.list}>
-                      <h3> Cloud Infrastructure Management: </h3>
-                      <p>Foreware team offers full cloud infrastructure management services, such as tracking, improvement, and servicing, to guarantee that your cloud landscape is reliable and functional.
+                    <li className={styles.list}>
+                    <div className={styles.text}>
+                        <div className={styles.iconn}>
+                          <div className={styles.icons}><MdOutlineAnalytics /></div>
+                          <h3> Cloud Infrastructure Management: </h3>
+                        </div>
+                        <div className={styles.writeUp}>
+                        <p>Foreware team offers full cloud infrastructure management services, such as tracking, improvement, and servicing, to guarantee that your cloud landscape is reliable and functional.
                       </p>
+                        </div>
+                      </div>
                     </li>
-                    <li  className={styles.list}>
-                      <h3>	Cloud Security:  </h3>
-                      <p>We provide powerful cloud security solutions to safeguard your data and apps from cyber-attacks, ensuring that your organization stays secure and in compliance with industry requirements.</p>
+                    <li className={styles.list}>
+                    <div className={styles.text}>
+                        <div className={styles.iconn}>
+                          <div className={styles.icons}><GiArtificialIntelligence /></div>
+                          <h3>	Cloud Security:  </h3>
+                        </div>
+                        <div className={styles.writeUp}>
+                        <p>We provide powerful cloud security solutions to safeguard your data and apps from cyber-attacks, ensuring that your organization stays secure and in compliance with industry requirements.</p>
+                        </div>
+                      </div>
                     </li>
+                    <li className={styles.list}>
+                    <div className={styles.text}>
+                        <div className={styles.iconn}>
+                          <div className={styles.icons}><GiArtificialIntelligence /></div>
+                          <h3>	Cloud Backup and Disaster Recovery:   </h3>
+                        </div>
+                        <div className={styles.writeUp}>
+                        <p>Our cloud backup and disaster recovery services enable organizations to secure their data and applications from loss or damage, assuring business continuity in the event of a disaster.</p>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                  {/* <ul>
+                   
+                  
+                    
                     <li  className={styles.list}>
                       <h3>	Cloud Backup and Disaster Recovery:   </h3>
                       <p>Our cloud backup and disaster recovery services enable organizations to secure their data and applications from loss or damage, assuring business continuity in the event of a disaster.</p>
                     </li>
-                  </ul>
+                  </ul> */}
                   With the expertise and experience to support you along the way, Foreware can assist you with cloud migration, infrastructure optimization, or security enhancement. Make an appointment with us right now to learn how our Cloud Services can support your business&apos;s success in the digital age.	
               </span>
             </div>
