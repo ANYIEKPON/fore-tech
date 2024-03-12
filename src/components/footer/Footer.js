@@ -17,7 +17,7 @@ const Footer = () => {
               <div className={styles.chooseUs}>Why Foreware</div>
               <div className={styles.footerText}>
                   <p>
-                  At Foreware Technologies, we're all about helping businesses thrive in today's digital landscape. Our team is passionate about harnessing the power of technology to drive innovation and...<Link href="/about-us" className="link"> <span>Read More</span></Link>
+                  At Foreware Technologies, we&apos;re all about helping businesses thrive in today&apos;s digital landscape. Our team is passionate about harnessing the power of technology to drive innovation and...<Link href="/about-us" className="link"> <span>Read More</span></Link>
                   </p>
                 </div>
           </div>
